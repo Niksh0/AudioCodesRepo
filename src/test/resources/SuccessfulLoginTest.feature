@@ -1,4 +1,4 @@
-Feature: Successful Login
+Feature: Successful Login edited
 
   Scenario: Login with valid username and password
     Given User navigates to the login page
