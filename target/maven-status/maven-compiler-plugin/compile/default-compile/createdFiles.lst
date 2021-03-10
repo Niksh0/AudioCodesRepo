@@ -1,0 +1,10 @@
+pageObjects\LoginPage.class
+selenium\Wait.class
+dataProvider\ConfigFileReader.class
+managers\WebDriverManager$1.class
+managers\WebDriverManager.class
+enums\DriverType.class
+enums\EnvironmentType.class
+managers\PageObjectManager.class
+managers\FileReaderManager.class
+pageObjects\BotsPage.class
