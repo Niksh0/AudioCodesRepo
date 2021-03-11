@@ -15,7 +15,14 @@ public class BotsPage {
     @FindBy(className = "navbar-brand")
     private WebElement pageTitle;
 
+    @FindBy(className = "fa fa-plus")
+    private WebElement addBotButton;
+
     public String botsPage_Title() {
         return pageTitle.getText();
+    }
+
+    public void add_Bot() {
+        addBotButton.click();
     }
 }
