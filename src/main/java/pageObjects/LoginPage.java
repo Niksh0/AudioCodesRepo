@@ -44,7 +44,7 @@ public class LoginPage {
     }
 
     public void enter_Credentials() {
-        enter_Username("giannina.zowie@twodrops.org");
+        enter_Username("frttest@mailpoof.com");
         enter_Password("Aa!123456");
     }
 

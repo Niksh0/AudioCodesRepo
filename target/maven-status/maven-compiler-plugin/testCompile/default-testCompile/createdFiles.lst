@@ -1,2 +1,3 @@
 stepDefinitions\SuccessfulLoginSteps.class
+stepDefinitions\AddBotWithNumber.class
 testRunner\TestRunner.class

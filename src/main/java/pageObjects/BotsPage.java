@@ -1,10 +1,12 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import selenium.Wait;
+import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 import java.util.List;
 
@@ -18,13 +20,13 @@ public class BotsPage {
     @FindBy(className = "navbar-brand")
     private WebElement pageTitle;
 
-    @FindBy(className = "fa fa-plus")
+    @FindBy(xpath = "//button/i")
     private WebElement addBotButton;
 
-    @FindBy(className = "numbers-wizard-bot-framework-logo microsoftbotframework")
+    @FindBy(xpath = "//div[1]/span[. = 'Microsoft Bot Framework']")
     private WebElement microsoftBot;
 
-    @FindBy(className = "btn-primary btn Ripple-parent round")
+    @FindBy(xpath = "//div[1]/div[2]/div/button[. = 'Next']")
     private WebElement firstStepNext;
 
     @FindBy(xpath = "(//input[@name='agentName'])")
@@ -33,7 +35,7 @@ public class BotsPage {
     @FindBy(xpath = "(//input[@name='botSecretKey'])")
     private WebElement secretKeyInput;
 
-    @FindBy(className = "btn-primary btn Ripple-parent round")
+    @FindBy(xpath = "//div[2]/div[2]/div/button[. = 'Next']")
     private WebElement secondStepNext;
 
     @FindBy(xpath = "(//input[@data-test='controlled-select-input'])[1]")
@@ -51,25 +53,25 @@ public class BotsPage {
     @FindBy(xpath = "(//input[@name='cityPattern'])")
     private WebElement cityName;
 
-    @FindBy(className = "btn-outline-primary btn Ripple-parent round btn-sm")
+    @FindBy(xpath = "//button[. = 'Buy number']")
     private WebElement buyNumberButton;
 
-    @FindBy(className = "btn-primary btn Ripple-parent round")
+    @FindBy(xpath = "//div[3]/button[. = 'Next']")
     private WebElement thirdStepNext;
 
     @FindBy(xpath = "//*[contains(text(),'Save and Close')]")
     private WebElement saveButton;
 
-    @FindBy(xpath = "//*[contains(text(),'MS Test')]")
+    @FindBy(xpath = "//*[contains(text(),'FRT Test')]")
     private WebElement microsoftBotTile;
 
-    @FindBy(className = "btn-danger btn Ripple-parent round btn-sm")
+    @FindBy(xpath = "//button[. = 'Delete bot']")
     private WebElement deleteBotButton;
 
     @FindBy(xpath = "(//input[@name='botName'])")
     private WebElement botNameField;
 
-    @FindBy(className = "form-check-label")
+    @FindBy(xpath = "//label[. = concat('Delete bot', \"'\", 's phone numbers')]")
     private WebElement confirmNumberDeletion;
 
     @FindBy(xpath = "//*[contains(text(),'OK')]")
@@ -86,6 +88,7 @@ public class BotsPage {
         addBotButton.click();
     }
     public void clickON_MicrosoftBot() {
+        Wait.until(visibilityOfElementLocated(By.className("numbers-wizard-bot-framework-logo microsoftbotframework")));
         microsoftBot.click();
     }
 
@@ -160,6 +163,19 @@ public class BotsPage {
         confirmNumberDeletion.click();
         confirmBotDeletion.click();
         Wait.untilJqueryIsDone(driver);
+    }
+
+    public void enter_msBotDetails() {
+        enter_BotName("FRT Test");
+        enter_SecretKey("pJOwNmK-fq0.u-2KkxMoXGxNb_F0qC9z6e4euw5A8jKs4Ar0VX77ljc");
+    }
+
+    public void assert_MsBotDeleted() {
+        if (!microsoftBotTile.isDisplayed()) {
+            System.out.println("Bot is deleted");
+        } else {
+            System.out.println("Bot is not deleted");
+        }
     }
 
 }

@@ -3,6 +3,8 @@ package selenium;
 import managers.FileReaderManager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -40,7 +42,7 @@ public class Wait {
     }
 
 
-    private static void until(WebDriver driver, Function<WebDriver, Boolean> waitCondition, Long timeoutInSeconds){
+    public static void until(WebDriver driver, Function<WebDriver, Boolean> waitCondition, Long timeoutInSeconds){
         WebDriverWait webDriverWait = new WebDriverWait(driver, timeoutInSeconds);
         webDriverWait.withTimeout(timeoutInSeconds, TimeUnit.SECONDS);
         try{
@@ -48,5 +50,9 @@ public class Wait {
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+    }
+
+
+    public static void until(ExpectedCondition<WebElement> visibilityOfElementLocated) {
     }
 }
