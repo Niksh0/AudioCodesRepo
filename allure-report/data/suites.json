@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Add a new Bot",
+    "children" : [ {
+      "name" : "Add a new Bot, assign a number to it and delete them",
+      "uid" : "7caa24a520d0e1e2",
+      "parentUid" : "fccd0569bf51faaece51cc5951b7e7c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617983792283,
+        "stop" : 1617983827068,
+        "duration" : 34785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Add a new Bot, assign a number to it and delete them",
+      "uid" : "18f3bcfd58eb1ab2",
+      "parentUid" : "fccd0569bf51faaece51cc5951b7e7c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617985572519,
+        "stop" : 1617985606730,
+        "duration" : 34211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fccd0569bf51faaece51cc5951b7e7c8"
+  }, {
+    "name" : "Successful Login edited",
+    "children" : [ {
+      "name" : "Login with valid username and password",
+      "uid" : "b6f7c2d942262b4a",
+      "parentUid" : "5005a7b49c9f023bacd2325361ca9251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617985606940,
+        "stop" : 1617985617329,
+        "duration" : 10389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5005a7b49c9f023bacd2325361ca9251"
+  } ]
+}

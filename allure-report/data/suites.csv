@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 09 19:26:46 EEST 2021","Fri Apr 09 19:26:57 EEST 2021","10389","","Successful Login edited","","Login with valid username and password","","Login with valid username and password",""
+"passed","Fri Apr 09 19:26:12 EEST 2021","Fri Apr 09 19:26:46 EEST 2021","34211","","Add a new Bot","","Add a new Bot, assign a number to it and delete them","","Add a new Bot, assign a number to it and delete them",""
+"passed","Fri Apr 09 18:56:32 EEST 2021","Fri Apr 09 18:57:07 EEST 2021","34785","","Add a new Bot","","Add a new Bot, assign a number to it and delete them","","Add a new Bot, assign a number to it and delete them",""

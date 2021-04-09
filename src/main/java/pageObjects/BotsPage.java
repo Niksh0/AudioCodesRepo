@@ -1,20 +1,16 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import selenium.Wait;
-import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 import java.util.List;
 
-public class BotsPage {
+public class BotsPage extends BasePage{
     WebDriver driver;
 
     public BotsPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(className = "navbar-brand")
@@ -41,13 +37,13 @@ public class BotsPage {
     @FindBy(xpath = "(//input[@data-test='controlled-select-input'])[1]")
     private WebElement countryDropdown;
 
-    @FindBy(xpath = "(//ul[@data-test='controlled-select-options'])[1]")
+    @FindBy(xpath = "//li[@data-test='controlled-select-option']")
     private List<WebElement> countryList;
 
     @FindBy(xpath = "(//input[@data-test='controlled-select-input'])[3]")
     private WebElement stateDropdown;
 
-    @FindBy(xpath = "(//ul[@data-test='controlled-select-options'])[3]")
+    @FindBy(xpath = "//li[@data-test='controlled-select-option']")
     private List<WebElement> stateList;
 
     @FindBy(xpath = "(//input[@name='cityPattern'])")
@@ -55,6 +51,9 @@ public class BotsPage {
 
     @FindBy(xpath = "//button[. = 'Buy number']")
     private WebElement buyNumberButton;
+
+    @FindBy(className = "numbers-wizard-number-created-wrapper")
+    private WebElement numberConfirmation;
 
     @FindBy(xpath = "//div[3]/button[. = 'Next']")
     private WebElement thirdStepNext;
@@ -80,6 +79,9 @@ public class BotsPage {
     @FindBy(className = "d-flex my-3 flex-wrap")
     private List<WebElement> audiocodesBots;
 
+    @FindBy(xpath = "//div[@role='alert']")
+    private WebElement greenAlert;
+
     public String botsPage_Title() {
         return pageTitle.getText();
     }
@@ -87,8 +89,9 @@ public class BotsPage {
     public void add_Bot() {
         addBotButton.click();
     }
+
     public void clickON_MicrosoftBot() {
-        Wait.until(visibilityOfElementLocated(By.className("numbers-wizard-bot-framework-logo microsoftbotframework")));
+        waitForElementToAppear(microsoftBot);
         microsoftBot.click();
     }
 
@@ -107,7 +110,8 @@ public class BotsPage {
     }
 
     public void click_SecondStepNext() {
-        firstStepNext.click();
+        waitForElementToBeClickable(secondStepNext);
+        secondStepNext.click();
     }
 
     public void select_Country() {
@@ -120,10 +124,11 @@ public class BotsPage {
         }
     }
 
-    public void select_State() {
+    public void select_State() throws InterruptedException {
+        Thread.sleep(1500);
         stateDropdown.click();
         for (WebElement state : stateList) {
-            if (state.getText().equals("US")) {
+            if (state.getText().equals("NY")) {
                 state.click();
                 break;
             }
@@ -136,10 +141,11 @@ public class BotsPage {
 
     public void click_BuyNumberButton() {
         buyNumberButton.click();
-        Wait.untilJqueryIsDone(driver);
+        waitForElementToAppear(numberConfirmation);
     }
 
     public void click_ThirdStepNext() {
+        waitForElementToBeClickable(thirdStepNext);
         thirdStepNext.click();
     }
 
@@ -148,10 +154,12 @@ public class BotsPage {
     }
 
     public void click_MicrosoftBotTile() {
+        waitForElementToAppear(microsoftBotTile);
         microsoftBotTile.click();
     }
 
     public void click_DeleteBotButton() {
+        waitForElementToBeClickable(deleteBotButton);
         deleteBotButton.click();
     }
 
@@ -160,22 +168,23 @@ public class BotsPage {
     }
 
     public void confirmBotNumberDeletion() {
+        waitForElementToAppear(confirmBotDeletion);
         confirmNumberDeletion.click();
         confirmBotDeletion.click();
-        Wait.untilJqueryIsDone(driver);
+    }
+    public boolean isAlertDisplayed() {
+        waitForElementToAppear(greenAlert);
+        return greenAlert.isDisplayed();
+    }
+
+    public String getAlertText() {
+        waitForElementToAppear(greenAlert);
+        return greenAlert.getText();
     }
 
     public void enter_msBotDetails() {
         enter_BotName("FRT Test");
         enter_SecretKey("pJOwNmK-fq0.u-2KkxMoXGxNb_F0qC9z6e4euw5A8jKs4Ar0VX77ljc");
-    }
-
-    public void assert_MsBotDeleted() {
-        if (!microsoftBotTile.isDisplayed()) {
-            System.out.println("Bot is deleted");
-        } else {
-            System.out.println("Bot is not deleted");
-        }
     }
 
 }

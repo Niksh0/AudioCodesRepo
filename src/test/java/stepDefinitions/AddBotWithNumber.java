@@ -3,13 +3,20 @@ package stepDefinitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Attachment;
 import managers.PageObjectManager;
 import managers.WebDriverManager;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import pageObjects.BotsPage;
 import pageObjects.LoginPage;
 import selenium.Wait;
+
+import java.io.ByteArrayInputStream;
 
 public class AddBotWithNumber {
     WebDriver driver;
@@ -49,11 +56,12 @@ public class AddBotWithNumber {
     }
 
     @When("^The user buys a number$")
-    public void the_user_buys_a_number() {
+    public void the_user_buys_a_number() throws InterruptedException {
         botsPage.select_Country();
         botsPage.select_State();
         botsPage.enter_City();
         botsPage.click_BuyNumberButton();
+        Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         botsPage.click_ThirdStepNext();
         botsPage.click_SaveButton();
     }
@@ -61,6 +69,7 @@ public class AddBotWithNumber {
     @Then("^The bot and number are added$")
     public void the_bot_and_number_are_added() {
         botsPage.click_MicrosoftBotTile();
+        Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
     @When("^The user deletes the bot and number$")
@@ -71,9 +80,12 @@ public class AddBotWithNumber {
 
     @Then("^The bot and number are successfully deleted$")
     public void the_bot_and_number_are_successfully_deleted() {
-        botsPage.assert_MsBotDeleted();
+        System.out.println(botsPage.isAlertDisplayed());
+        System.out.println("The alert text is" + botsPage.getAlertText());
+        String expectedAlertText = "The bot has been deleted successfully";
+        String actualAlertText = botsPage.getAlertText();
+        Assert.assertEquals(expectedAlertText, actualAlertText);
+        Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         webDriverManager.closeDriver();
     }
-
-
 }

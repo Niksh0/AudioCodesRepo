@@ -1,0 +1,99 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-QRUJQ1Q",
+    "children" : [ {
+      "name" : "92332@DESKTOP-QRUJQ1Q.main(1)",
+      "children" : [ {
+        "name" : "Add a new Bot, assign a number to it and delete them",
+        "uid" : "7caa24a520d0e1e2",
+        "parentUid" : "daa2687969fec385aa85a3117bc0f7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617983792283,
+          "stop" : 1617983827068,
+          "duration" : 34785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with valid username and password",
+        "uid" : "e69ebcc53444d48",
+        "parentUid" : "daa2687969fec385aa85a3117bc0f7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617983827216,
+          "stop" : 1617983840628,
+          "duration" : 13412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "daa2687969fec385aa85a3117bc0f7cb"
+    }, {
+      "name" : "94520@DESKTOP-QRUJQ1Q.main(1)",
+      "children" : [ {
+        "name" : "Add a new Bot, assign a number to it and delete them",
+        "uid" : "24bb06c012dfcb22",
+        "parentUid" : "f0194eb24ea27ef11d45ca076a0bd8fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617985247387,
+          "stop" : 1617985282952,
+          "duration" : 35565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with valid username and password",
+        "uid" : "47a59761d4f57da3",
+        "parentUid" : "f0194eb24ea27ef11d45ca076a0bd8fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617985283105,
+          "stop" : 1617985293458,
+          "duration" : 10353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0194eb24ea27ef11d45ca076a0bd8fd"
+    }, {
+      "name" : "95288@DESKTOP-QRUJQ1Q.main(1)",
+      "children" : [ {
+        "name" : "Login with valid username and password",
+        "uid" : "b6f7c2d942262b4a",
+        "parentUid" : "58d04e8c404550b9ca4be3f9ad8c3cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617985606940,
+          "stop" : 1617985617329,
+          "duration" : 10389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add a new Bot, assign a number to it and delete them",
+        "uid" : "18f3bcfd58eb1ab2",
+        "parentUid" : "58d04e8c404550b9ca4be3f9ad8c3cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617985572519,
+          "stop" : 1617985606730,
+          "duration" : 34211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58d04e8c404550b9ca4be3f9ad8c3cd2"
+    } ],
+    "uid" : "3b67411aba96e4df4fa48c6c383ecbd6"
+  } ]
+}

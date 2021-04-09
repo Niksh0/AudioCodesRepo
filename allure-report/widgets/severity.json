@@ -1,0 +1,31 @@
+[ {
+  "uid" : "7caa24a520d0e1e2",
+  "name" : "Add a new Bot, assign a number to it and delete them",
+  "time" : {
+    "start" : 1617983792283,
+    "stop" : 1617983827068,
+    "duration" : 34785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18f3bcfd58eb1ab2",
+  "name" : "Add a new Bot, assign a number to it and delete them",
+  "time" : {
+    "start" : 1617985572519,
+    "stop" : 1617985606730,
+    "duration" : 34211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6f7c2d942262b4a",
+  "name" : "Login with valid username and password",
+  "time" : {
+    "start" : 1617985606940,
+    "stop" : 1617985617329,
+    "duration" : 10389
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

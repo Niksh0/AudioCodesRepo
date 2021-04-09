@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Add a new Bot",
+    "children" : [ {
+      "name" : "Add a new Bot, assign a number to it and delete them",
+      "children" : [ {
+        "name" : "Add a new Bot, assign a number to it and delete them",
+        "uid" : "7caa24a520d0e1e2",
+        "parentUid" : "bdaa010a9b76b1dcde04fe21c54d709c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617983792283,
+          "stop" : 1617983827068,
+          "duration" : 34785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add a new Bot, assign a number to it and delete them",
+        "uid" : "18f3bcfd58eb1ab2",
+        "parentUid" : "bdaa010a9b76b1dcde04fe21c54d709c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617985572519,
+          "stop" : 1617985606730,
+          "duration" : 34211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdaa010a9b76b1dcde04fe21c54d709c"
+    } ],
+    "uid" : "05816607b385cc66c5fa8889353fb4b6"
+  }, {
+    "name" : "Successful Login edited",
+    "children" : [ {
+      "name" : "Login with valid username and password",
+      "children" : [ {
+        "name" : "Login with valid username and password",
+        "uid" : "b6f7c2d942262b4a",
+        "parentUid" : "ee3a6774f32806ef44b6a5d5ae6affdd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617985606940,
+          "stop" : 1617985617329,
+          "duration" : 10389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee3a6774f32806ef44b6a5d5ae6affdd"
+    } ],
+    "uid" : "4a16ce240d656d84a9a850ecc2ce1978"
+  } ]
+}

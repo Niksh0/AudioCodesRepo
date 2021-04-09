@@ -1,3 +1,4 @@
+@Issue("AUDCUAT-1084")
 Feature: Add a new Bot
 
   Scenario: Add a new Bot, assign a number to it and delete them
