@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class BotsPage extends BasePage{
-    WebDriver driver;
 
     public BotsPage(WebDriver driver) {
         super(driver);
@@ -21,6 +20,33 @@ public class BotsPage extends BasePage{
 
     @FindBy(xpath = "//div[1]/span[. = 'Microsoft Bot Framework']")
     private WebElement microsoftBot;
+
+    @FindBy(xpath = "//div[1]/span[. = 'Dialogflow ES']")
+    private WebElement dialogflowEsBot;
+
+    @FindBy(xpath = "//div[1]/span[. = 'Dialogflow CX']")
+    private WebElement dialogflowCxBot;
+
+    @FindBy(xpath = "//div[2]/div[1]/div//span[. = 'AudioCodes Bot API']")
+    private WebElement audioCodesBot;
+
+    @FindBy(xpath = "//span[2][. = 'Cognigy']")
+    private WebElement cognigyBot;
+
+    @FindBy(xpath = "//span[3][. = 'RASA']")
+    private WebElement rasaBot;
+
+    @FindBy(xpath = "//span[. = 'Kore.AI']")
+    private WebElement koreAiBot;
+
+    @FindBy(xpath = "//span[. = 'Inbenta']")
+    private WebElement inbentaBot;
+
+    @FindBy(xpath = "//span[6][. = 'Haptik']")
+    private WebElement haptikBot;
+
+    @FindBy(xpath = "//span[7][. = 'CoCoHub']")
+    private WebElement cocohubBpt;
 
     @FindBy(xpath = "//div[1]/div[2]/div/button[. = 'Next']")
     private WebElement firstStepNext;
@@ -76,11 +102,15 @@ public class BotsPage extends BasePage{
     @FindBy(xpath = "//*[contains(text(),'OK')]")
     private WebElement confirmBotDeletion;
 
-    @FindBy(className = "d-flex my-3 flex-wrap")
-    private List<WebElement> audiocodesBots;
-
     @FindBy(xpath = "//div[@role='alert']")
     private WebElement greenAlert;
+
+    @FindBy(xpath = "//*[contains(text(),'MS Test')]")
+    private WebElement msTestBotTile;
+
+    @FindBy(xpath = "//td[. = 'FRT Test Number']")
+    private WebElement testNumberInTable;
+
 
     public String botsPage_Title() {
         return pageTitle.getText();
@@ -88,6 +118,11 @@ public class BotsPage extends BasePage{
 
     public void add_Bot() {
         addBotButton.click();
+    }
+
+    public boolean allBotsDisplayed() {
+        waitForElementToAppear(microsoftBot);
+        return microsoftBot.isDisplayed() && dialogflowEsBot.isDisplayed() &&  dialogflowCxBot.isDisplayed() && audioCodesBot.isDisplayed() && cognigyBot.isDisplayed() && rasaBot.isDisplayed() && koreAiBot.isDisplayed() && inbentaBot.isDisplayed() && haptikBot.isDisplayed() && cocohubBpt.isDisplayed();
     }
 
     public void clickON_MicrosoftBot() {

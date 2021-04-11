@@ -43,6 +43,12 @@ public class AddBotWithNumber {
         botsPage.add_Bot();
     }
 
+    @Then("^Validate that all Bot frameworks are displayed$")
+    public void validate_that_all_Bot_frameworks_are_displayed() {
+        Assert.assertTrue(botsPage.allBotsDisplayed());
+        webDriverManager.closeDriver();
+    }
+
     @When("^The user specifies the Bot framework$")
     public void the_user_specifies_the_Bot_framework() {
         botsPage.clickON_MicrosoftBot();

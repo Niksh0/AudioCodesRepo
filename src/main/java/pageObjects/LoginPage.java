@@ -7,12 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import selenium.Wait;
 
-public class LoginPage {
-    WebDriver driver;
+public class LoginPage extends BasePage {
+    //WebDriver driver;
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(xpath = "//input[@name='username']")
@@ -23,6 +22,9 @@ public class LoginPage {
 
     @FindBy(css = ".btn-primary")
     private WebElement loginButton;
+
+    @FindBy(xpath = "//div[@role='alert']")
+    private WebElement redAlert;
 
     public void navigateTo_LoginPage () {
         driver.get(FileReaderManager.getInstance().getConfigFileReader().getApplicationUrl());
@@ -43,8 +45,28 @@ public class LoginPage {
         Wait.untilJqueryIsDone(driver);
     }
 
+    public boolean isAlertDisplayed() {
+        waitForElementToAppear(redAlert);
+        return redAlert.isDisplayed();
+    }
+
+    public String getAlertText() {
+        waitForElementToAppear(redAlert);
+        return redAlert.getText();
+    }
+
     public void enter_Credentials() {
         enter_Username("frttest@mailpoof.com");
+        enter_Password("Aa!123456");
+    }
+
+    public void enter_InvalidCredentials() {
+        enter_Username("frttest@mailpoof.com");
+        enter_Password("Aa!1234561");
+    }
+
+    public void enter_NonexistentUserCredentials() {
+        enter_Username("frttest1111@mailpoof.com");
         enter_Password("Aa!123456");
     }
 

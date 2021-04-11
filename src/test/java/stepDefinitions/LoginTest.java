@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.BotsPage;
 import pageObjects.LoginPage;
 
-public class SuccessfulLoginSteps {
+public class LoginTest {
     WebDriver driver;
     LoginPage loginPage;
     BotsPage botsPage;
@@ -43,6 +43,42 @@ public class SuccessfulLoginSteps {
         String expectedText = "Bots";
         String actualText = botsPage.botsPage_Title();
         Assert.assertEquals(expectedText, actualText);
+        webDriverManager.closeDriver();
+    }
+
+    @When("^User enters invalid credentials$")
+    public void user_enters_invalid_credentials() {
+        loginPage.enter_InvalidCredentials();
+    }
+
+    @When("^User attempts to log in$")
+    public void user_attempts_to_log_in() {
+        loginPage.click_Login();
+    }
+
+    @Then("^User receives an error message$")
+    public void user_receives_an_error_message() {
+        String expectedAlertText = "Incorrect Credentials.";
+        String actualAlertText = loginPage.getAlertText();
+        Assert.assertEquals(expectedAlertText, actualAlertText);
+        webDriverManager.closeDriver();
+    }
+
+    @When("^User enters nonexistent email$")
+    public void user_enters_nonexistent_email() {
+        loginPage.enter_NonexistentUserCredentials();
+    }
+
+    @When("^User tries to log in$")
+    public void user_tries_to_log_in() {
+        loginPage.click_Login();
+    }
+
+    @Then("^Error for nonexistent user is displayed$")
+    public void error_for_nonexistent_user_is_displayed() {
+        String expectedAlertText = "User does not exist.";
+        String actualAlertText = loginPage.getAlertText();
+        Assert.assertEquals(expectedAlertText, actualAlertText);
         webDriverManager.closeDriver();
     }
 }
