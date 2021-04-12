@@ -39,7 +39,7 @@ public class NumbersPage extends BasePage {
     @FindBy(xpath = "//a[. = 'Bots']")
     private WebElement botsPageLink;
 
-    public void clickNumbersPage() {
+    public void navigateToNumbersPage() {
         numbersPage.click();
     }
 
@@ -49,7 +49,7 @@ public class NumbersPage extends BasePage {
     }
 
     public void clickOnUnassignNumberButton() {
-        waitForElementToAppear(unassignButton);
+        waitForElementToBeClickable(unassignButton);
         unassignButton.click();
     }
 
@@ -60,6 +60,23 @@ public class NumbersPage extends BasePage {
     public String getUnassignAlertText() {
         waitForElementToAppear(greenAlert);
         return greenAlert.getText();
+    }
+
+    public void clickAssignButton() {
+        waitForElementToAppear(assignButton);
+        assignButton.click();
+    }
+
+    public void selectBotToAssign() {
+        waitForElementToAppear(selectBotDropdown);
+        selectBotDropdown.click();
+        botName.click();
+        waitForElementToAppear(confirmBotSelection);
+        confirmBotSelection.click();
+    }
+
+    public void navigateToBotsPage() {
+        botsPageLink.click();
     }
 
 }

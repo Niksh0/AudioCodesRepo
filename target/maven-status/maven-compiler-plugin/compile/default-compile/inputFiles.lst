@@ -1,9 +1,11 @@
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\pageObjects\BotsPage.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\selenium\Wait.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\managers\FileReaderManager.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\pageObjects\LoginPage.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\enums\DriverType.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\managers\WebDriverManager.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\dataProvider\ConfigFileReader.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\enums\EnvironmentType.java
-D:\Programs\Cucumber Framework\AudioCodesTest\src\main\java\managers\PageObjectManager.java
+D:\AudioCodesTest\src\main\java\dataProvider\ConfigFileReader.java
+D:\AudioCodesTest\src\main\java\enums\DriverType.java
+D:\AudioCodesTest\src\main\java\managers\FileReaderManager.java
+D:\AudioCodesTest\src\main\java\pageObjects\BasePage.java
+D:\AudioCodesTest\src\main\java\selenium\Wait.java
+D:\AudioCodesTest\src\main\java\pageObjects\NumbersPage.java
+D:\AudioCodesTest\src\main\java\enums\EnvironmentType.java
+D:\AudioCodesTest\src\main\java\managers\PageObjectManager.java
+D:\AudioCodesTest\src\main\java\pageObjects\BotsPage.java
+D:\AudioCodesTest\src\main\java\pageObjects\LoginPage.java
+D:\AudioCodesTest\src\main\java\managers\WebDriverManager.java

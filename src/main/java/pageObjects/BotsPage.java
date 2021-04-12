@@ -217,6 +217,21 @@ public class BotsPage extends BasePage{
         return greenAlert.getText();
     }
 
+    public void clickOnMsBotTile() {
+        waitForElementToAppear(msTestBotTile);
+        msTestBotTile.click();
+    }
+
+    public String getNumberName() {
+        waitForElementToAppear(testNumberInTable);
+        return testNumberInTable.getText();
+    }
+
+    public Boolean isNumberDisplayed() {
+        waitForElementToAppear(testNumberInTable);
+        return testNumberInTable.isDisplayed();
+    }
+
     public void enter_msBotDetails() {
         enter_BotName("FRT Test");
         enter_SecretKey("pJOwNmK-fq0.u-2KkxMoXGxNb_F0qC9z6e4euw5A8jKs4Ar0VX77ljc");

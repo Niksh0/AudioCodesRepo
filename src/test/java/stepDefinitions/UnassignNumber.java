@@ -1,0 +1,67 @@
+package stepDefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import managers.PageObjectManager;
+import managers.WebDriverManager;
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import pageObjects.BotsPage;
+import pageObjects.LoginPage;
+import pageObjects.NumbersPage;
+
+public class UnassignNumber {
+    WebDriver driver;
+    LoginPage loginPage;
+    BotsPage botsPage;
+    NumbersPage numbersPage;
+    PageObjectManager pageObjectManager;
+    WebDriverManager webDriverManager;
+
+    @Given("^The user has logged in$")
+    public void the_user_has_logged_in() {
+        webDriverManager = new WebDriverManager();
+        driver = webDriverManager.getDriver();
+        pageObjectManager = new PageObjectManager(driver);
+        loginPage = pageObjectManager.getLoginPage();
+        loginPage.navigateTo_LoginPage();
+        loginPage.enter_Credentials();
+        loginPage.click_Login();
+    }
+
+    @When("^The user navigates to the Numbers page and selects a number$")
+    public void the_user_navigates_to_the_Numbers_page_and_selects_a_number() {
+        numbersPage = pageObjectManager.geNumbersPage();
+        numbersPage.navigateToNumbersPage();
+        numbersPage.clickTestNumber();
+    }
+
+    @When("^The user unassigns the number$")
+    public void the_user_unassigns_the_number() {
+        numbersPage.clickOnUnassignNumberButton();
+        numbersPage.clickOnConfirmUnasignNumber();
+        String expectedConfirmUnassignAlert = "The number has been unassigned successfully";
+        String actualConfirmUnassignAlert = numbersPage.getUnassignAlertText();
+        Assert.assertEquals(expectedConfirmUnassignAlert, actualConfirmUnassignAlert);
+    }
+
+    @When("^The user assigns it back to the Bot$")
+    public void the_user_assigns_it_back_to_the_Bot() {
+        numbersPage.clickTestNumber();
+        numbersPage.clickAssignButton();
+        numbersPage.selectBotToAssign();
+    }
+
+    @Then("^The user validates that the number is assigned to the Bot$")
+    public void the_user_validates_that_the_number_is_assigned_to_the_Bot() {
+        numbersPage.navigateToBotsPage();
+        botsPage = pageObjectManager.getBotsPage();
+        botsPage.clickOnMsBotTile();
+        botsPage.isNumberDisplayed();
+        String expectedNumberName = "FRT Test Number";
+        String actualNumberName = botsPage.getNumberName();
+        Assert.assertEquals(expectedNumberName, actualNumberName);
+        webDriverManager.closeDriver();
+    }
+}
