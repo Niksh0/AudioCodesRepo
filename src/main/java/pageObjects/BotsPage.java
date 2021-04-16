@@ -1,10 +1,13 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import selenium.Wait;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BotsPage extends BasePage{
 
@@ -110,6 +113,18 @@ public class BotsPage extends BasePage{
 
     @FindBy(xpath = "//td[. = 'FRT Test Number']")
     private WebElement testNumberInTable;
+
+    @FindBy(xpath = "(//span[@class='lever'])[5]")
+    private WebElement transferCallToggle;
+
+    @FindBy(xpath = "//button[. = 'Apply']")
+    private WebElement applyButton;
+
+    @FindBy(xpath = "//span/span[. = 'Numbers']")
+    private WebElement numbersPage;
+
+    @FindBy(xpath = "(//div[@role='progressbar'])")
+    private WebElement progressBar;
 
 
     public String botsPage_Title() {
@@ -230,6 +245,35 @@ public class BotsPage extends BasePage{
     public Boolean isNumberDisplayed() {
         waitForElementToAppear(testNumberInTable);
         return testNumberInTable.isDisplayed();
+    }
+
+    public void clickOnTransferCallToggle() throws InterruptedException {
+        Thread.sleep(2000);
+        transferCallToggle.click();
+    }
+
+    public void clickOnApplyButton() throws InterruptedException {
+        waitForElementToBeClickable(applyButton);
+        applyButton.click();
+        Thread.sleep(3000);
+    }
+
+//    public Boolean isProgressBarDisplayed() throws InterruptedException {
+//        Wait.untilJqueryIsDone(driver);
+//        //waitForElementToAppear(progressBar);
+//        waitForElementToBePresent(By.xpath("(//div[@role='progressbar'])"));
+//        return progressBar.isDisplayed();
+//    }
+
+    public void navigateToNumbersPage() {
+        //waitForElementInvisibility(progressBar);
+        try {
+            if (!applyButton.isEnabled()) {
+                numbersPage.click();
+            }
+        } catch (Exception e) {
+            System.out.println("The request did not finish");
+        }
     }
 
     public void enter_msBotDetails() {

@@ -40,9 +40,8 @@ public class LoginPage extends BasePage {
         password.sendKeys(userPassword);
     }
 
-    public void click_Login() {
+    public void click_Login()  {
         loginButton.click();
-        Wait.untilJqueryIsDone(driver);
     }
 
     public boolean isAlertDisplayed() {

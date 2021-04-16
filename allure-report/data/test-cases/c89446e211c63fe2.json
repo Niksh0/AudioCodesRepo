@@ -1,0 +1,239 @@
+{
+  "uid" : "c89446e211c63fe2",
+  "name" : "Add a new Bot, assign a number to it and delete them",
+  "fullName" : "Add a new Bot: Add a new Bot, assign a number to it and delete them",
+  "historyId" : "4cc05655b97cc0c98eb4143fba9b400f",
+  "time" : {
+    "start" : 1618484965318,
+    "stop" : 1618484991532,
+    "duration" : 26214
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1618484965321,
+      "stop" : 1618484965321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user is logged in",
+      "time" : {
+        "start" : 1618484965322,
+        "stop" : 1618484971421,
+        "duration" : 6099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  The user click on the plus button",
+      "time" : {
+        "start" : 1618484971421,
+        "stop" : 1618484972127,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  The user specifies the Bot framework",
+      "time" : {
+        "start" : 1618484972127,
+        "stop" : 1618484973353,
+        "duration" : 1226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  The user adds the Bot details",
+      "time" : {
+        "start" : 1618484973353,
+        "stop" : 1618484974234,
+        "duration" : 881
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  The user buys a number",
+      "time" : {
+        "start" : 1618484974236,
+        "stop" : 1618484985962,
+        "duration" : 11726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22421ef454867fd0",
+        "name" : "Image",
+        "source" : "22421ef454867fd0.png",
+        "type" : "image/png",
+        "size" : 160052
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  The bot and number are added",
+      "time" : {
+        "start" : 1618484985962,
+        "stop" : 1618484988152,
+        "duration" : 2190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0827008b285007f",
+        "name" : "Image",
+        "source" : "a0827008b285007f.png",
+        "type" : "image/png",
+        "size" : 123850
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  The user deletes the bot and number",
+      "time" : {
+        "start" : 1618484988153,
+        "stop" : 1618484988931,
+        "duration" : 778
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  The bot and number are successfully deleted",
+      "time" : {
+        "start" : 1618484988931,
+        "stop" : 1618484991529,
+        "duration" : 2598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2154bc34ff8ab13c",
+        "name" : "Image",
+        "source" : "2154bc34ff8ab13c.png",
+        "type" : "image/png",
+        "size" : 182054
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1618484991531,
+      "stop" : 1618484991531,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "story",
+    "value" : "Add a new Bot, assign a number to it and delete them"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "9648@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "suite",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "testClass",
+    "value" : "Add a new Bot, assign a number to it and delete them"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "AUDCUAT-1084",
+    "url" : "https://jira.flatrocktech.com/browse/AUDCUAT-1084",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c89446e211c63fe2.json",
+  "parameterValues" : [ ]
+}

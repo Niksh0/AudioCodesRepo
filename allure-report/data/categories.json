@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>",
+      "children" : [ {
+        "name" : "Attempt to login with invalid credentials",
+        "uid" : "907d7798daf8e104",
+        "parentUid" : "e9fc69b758aceea7937e7eb27f38ca2e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618559460497,
+          "stop" : 1618559466491,
+          "duration" : 5994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9fc69b758aceea7937e7eb27f38ca2e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

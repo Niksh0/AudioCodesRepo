@@ -1,3 +1,61 @@
 [ {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/16/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 15,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/15/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/14/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1,
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/10/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/9/allure",
+  "reportName" : "AllureReport",
   "data" : { }
 } ]

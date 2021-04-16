@@ -43,9 +43,23 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
 
-//    protected void waitForAllElementsToBeVisible(List<WebElement> element) {
-//        wait.until(ExpectedConditions.visibilityOfAllElements(element));
-//    }
+    protected void waitForElementInvisibility(WebElement element) {
+        wait.until(ExpectedConditions.invisibilityOf(element));
+    }
 
+    protected void waitForElementToBePresent(By locator) {
+        wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
 
+    public boolean isElementDisplayed(WebElement element) {
+        try {
+            return element.isDisplayed();
+        } catch (org.openqa.selenium.ElementNotVisibleException e) {
+            return false;
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        } catch (org.openqa.selenium.StaleElementReferenceException e) {
+            return false;
+        }
+    }
 }

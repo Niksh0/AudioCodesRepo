@@ -1,3 +1,4 @@
-stepDefinitions\AddBotWithNumber.class
+stepDefinitions\UnassignNumberSetTransferCall.class
 testRunner\TestRunner.class
+stepDefinitions\AddBotWithNumber.class
 stepDefinitions\LoginTest.class

@@ -1,0 +1,146 @@
+{
+  "uid" : "c8262519bf90585d",
+  "name" : "Validate all bot frameworks are displayed",
+  "fullName" : "Add a new Bot: Validate all bot frameworks are displayed",
+  "historyId" : "f1b264cb3586d60e3b9b3a52fc671c85",
+  "time" : {
+    "start" : 1618473011481,
+    "stop" : 1618473022961,
+    "duration" : 11480
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1618473011487,
+      "stop" : 1618473011493,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user is logged in",
+      "time" : {
+        "start" : 1618473011497,
+        "stop" : 1618473019718,
+        "duration" : 8221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  The user click on the plus button",
+      "time" : {
+        "start" : 1618473019720,
+        "stop" : 1618473020615,
+        "duration" : 895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Validate that all Bot frameworks are displayed",
+      "time" : {
+        "start" : 1618473020615,
+        "stop" : 1618473022959,
+        "duration" : 2344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1618473022960,
+      "stop" : 1618473022960,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "story",
+    "value" : "Validate all bot frameworks are displayed"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "6632@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "suite",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate all bot frameworks are displayed"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "AUDCUAT-1084",
+    "url" : "https://jira.flatrocktech.com/browse/AUDCUAT-1084",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8262519bf90585d.json",
+  "parameterValues" : [ ]
+}

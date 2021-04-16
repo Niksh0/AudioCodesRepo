@@ -1,30 +1,70 @@
 [ {
-  "uid" : "b6f7c2d942262b4a",
+  "uid" : "e3dc6d7b66751f62",
+  "name" : "Attempt to login with nonexistent user",
+  "time" : {
+    "start" : 1618559466504,
+    "stop" : 1618559473301,
+    "duration" : 6797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbe830e1d018c532",
+  "name" : "Unassign a number from a bot and assign it back afterwards",
+  "time" : {
+    "start" : 1618559473309,
+    "stop" : 1618559489816,
+    "duration" : 16507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a483d72a0725da3a",
+  "name" : "Add a new Bot, assign a number to it and delete them",
+  "time" : {
+    "start" : 1618559421946,
+    "stop" : 1618559452658,
+    "duration" : 30712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d3c44c82a46f54c",
+  "name" : "Validate all bot frameworks are displayed",
+  "time" : {
+    "start" : 1618559410583,
+    "stop" : 1618559421802,
+    "duration" : 11219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "907d7798daf8e104",
+  "name" : "Attempt to login with invalid credentials",
+  "time" : {
+    "start" : 1618559460497,
+    "stop" : 1618559466491,
+    "duration" : 5994
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e742e4619a5ac166",
+  "name" : "Specify a Transfer call number",
+  "time" : {
+    "start" : 1618559489826,
+    "stop" : 1618559559758,
+    "duration" : 69932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6fd9cacc0e3bfa4",
   "name" : "Login with valid username and password",
   "time" : {
-    "start" : 1617985606940,
-    "stop" : 1617985617329,
-    "duration" : 10389
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18f3bcfd58eb1ab2",
-  "name" : "Add a new Bot, assign a number to it and delete them",
-  "time" : {
-    "start" : 1617985572519,
-    "stop" : 1617985606730,
-    "duration" : 34211
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7caa24a520d0e1e2",
-  "name" : "Add a new Bot, assign a number to it and delete them",
-  "time" : {
-    "start" : 1617983792283,
-    "stop" : 1617983827068,
-    "duration" : 34785
+    "start" : 1618559452667,
+    "stop" : 1618559460490,
+    "duration" : 7823
   },
   "status" : "passed",
   "severity" : "normal"

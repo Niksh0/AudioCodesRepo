@@ -1,0 +1,157 @@
+{
+  "uid" : "b8979a81a354de8a",
+  "name" : "Attempt to login with nonexistent user",
+  "fullName" : "Successful Login edited: Attempt to login with nonexistent user",
+  "historyId" : "b4cbd10929c9426537f7d0bc228415a2",
+  "time" : {
+    "start" : 1618490980760,
+    "stop" : 1618490989142,
+    "duration" : 8382
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1618490980760,
+      "stop" : 1618490980761,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to the login page",
+      "time" : {
+        "start" : 1618490980761,
+        "stop" : 1618490985610,
+        "duration" : 4849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User enters nonexistent email",
+      "time" : {
+        "start" : 1618490985610,
+        "stop" : 1618490986423,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User tries to log in",
+      "time" : {
+        "start" : 1618490986424,
+        "stop" : 1618490986482,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Error for nonexistent user is displayed",
+      "time" : {
+        "start" : 1618490986482,
+        "stop" : 1618490989140,
+        "duration" : 2658
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1618490989142,
+      "stop" : 1618490989142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "story",
+    "value" : "Attempt to login with nonexistent user"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "7096@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "suite",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "testClass",
+    "value" : "Attempt to login with nonexistent user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8979a81a354de8a.json",
+  "parameterValues" : [ ]
+}

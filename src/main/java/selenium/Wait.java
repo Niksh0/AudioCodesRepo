@@ -14,18 +14,27 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
 public class Wait {
-    public static void untilJqueryIsDone(WebDriver driver){
-        untilJqueryIsDone(driver, FileReaderManager.getInstance().getConfigFileReader().getImplicitlyWait());
+//    public static void untilJqueryIsDone(WebDriver driver){
+//        untilJqueryIsDone(driver, FileReaderManager.getInstance().getConfigFileReader().getImplicitlyWait());
+//    }
+
+    public static void untilJqueryIsDone(WebDriver driver) throws InterruptedException{
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        if((Boolean) executor.executeScript("return window.jQuery != undefined")){
+            while(!(Boolean) executor.executeScript("return jQuery.active == 0")){
+                Thread.sleep(1000);
+            }
+        }
     }
 
-    public static void untilJqueryIsDone(WebDriver driver, Long timeoutInSeconds){
-        until(driver, (d) ->
-        {
-            Boolean isJqueryCallDone = (Boolean)((JavascriptExecutor) driver).executeScript("return jQuery.active==0");
-            if (!isJqueryCallDone) System.out.println("JQuery call is in Progress");
-            return isJqueryCallDone;
-        }, timeoutInSeconds);
-    }
+//    public static void untilJqueryIsDone(WebDriver driver, Long timeoutInSeconds){
+//        until(driver, (d) ->
+//        {
+//            Boolean isJqueryCallDone = (Boolean)((JavascriptExecutor) driver).executeScript("return jQuery.active==0");
+//            if (!isJqueryCallDone) System.out.println("JQuery call is in Progress");
+//            return isJqueryCallDone;
+//        }, timeoutInSeconds);
+//    }
 
     public static void untilPageLoadComplete(WebDriver driver) {
         untilPageLoadComplete(driver, FileReaderManager.getInstance().getConfigFileReader().getImplicitlyWait());

@@ -126,10 +126,10 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         -Dcucumber.options="--plugin io.qameta.allure.cucumber2jvm.AllureCucumber2Jvm"
                     </argLine>
-                    <systemPropertyVariables>
-                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-                        <allure.link.issue.pattern>https://jira.flatrocktech.com/browse/%s</allure.link.issue.pattern>
-                    </systemPropertyVariables>
+<!--                    <systemPropertyVariables>-->
+<!--                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>-->
+<!--                        <allure.link.issue.pattern>https://jira.flatrocktech.com/browse/{}</allure.link.issue.pattern>-->
+<!--                    </systemPropertyVariables>-->
                 </configuration>
                 <dependencies>
                     <dependency>
