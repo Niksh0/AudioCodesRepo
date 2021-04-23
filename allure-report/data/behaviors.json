@@ -7,13 +7,13 @@
       "name" : "Validate all bot frameworks are displayed",
       "children" : [ {
         "name" : "Validate all bot frameworks are displayed",
-        "uid" : "1d3c44c82a46f54c",
+        "uid" : "836b39ef45f6ab4e",
         "parentUid" : "00b7e44ea74fd6f0c716d8ddc6b1e22e",
         "status" : "passed",
         "time" : {
-          "start" : 1618559410583,
-          "stop" : 1618559421802,
-          "duration" : 11219
+          "start" : 1619077818538,
+          "stop" : 1619077829251,
+          "duration" : 10713
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "Add a new Bot, assign a number to it and delete them",
       "children" : [ {
         "name" : "Add a new Bot, assign a number to it and delete them",
-        "uid" : "a483d72a0725da3a",
+        "uid" : "fb9a54608c0c9e17",
         "parentUid" : "bdaa010a9b76b1dcde04fe21c54d709c",
         "status" : "passed",
         "time" : {
-          "start" : 1618559421946,
-          "stop" : 1618559452658,
-          "duration" : 30712
+          "start" : 1619077829374,
+          "stop" : 1619077864155,
+          "duration" : 34781
         },
         "flaky" : false,
         "newFailed" : false,
@@ -45,13 +45,13 @@
       "name" : "Login with valid username and password",
       "children" : [ {
         "name" : "Login with valid username and password",
-        "uid" : "a6fd9cacc0e3bfa4",
+        "uid" : "c23ab4c71be6f2f2",
         "parentUid" : "ee3a6774f32806ef44b6a5d5ae6affdd",
         "status" : "passed",
         "time" : {
-          "start" : 1618559452667,
-          "stop" : 1618559460490,
-          "duration" : 7823
+          "start" : 1619077864168,
+          "stop" : 1619077873166,
+          "duration" : 8998
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "Attempt to login with invalid credentials",
       "children" : [ {
         "name" : "Attempt to login with invalid credentials",
-        "uid" : "907d7798daf8e104",
+        "uid" : "9e1fa18c363b92be",
         "parentUid" : "8114c42ef6539ea8c5a8261b5efb56ed",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1618559460497,
-          "stop" : 1618559466491,
-          "duration" : 5994
+          "start" : 1619077873210,
+          "stop" : 1619077880043,
+          "duration" : 6833
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,13 +79,13 @@
       "name" : "Attempt to login with nonexistent user",
       "children" : [ {
         "name" : "Attempt to login with nonexistent user",
-        "uid" : "e3dc6d7b66751f62",
+        "uid" : "20778c8fdcbf05ca",
         "parentUid" : "ddae74618a8dde3f64469998c0b9ca6a",
         "status" : "passed",
         "time" : {
-          "start" : 1618559466504,
-          "stop" : 1618559473301,
-          "duration" : 6797
+          "start" : 1619077880054,
+          "stop" : 1619077886654,
+          "duration" : 6600
         },
         "flaky" : false,
         "newFailed" : false,
@@ -100,13 +100,13 @@
       "name" : "Unassign a number from a bot and assign it back afterwards",
       "children" : [ {
         "name" : "Unassign a number from a bot and assign it back afterwards",
-        "uid" : "cbe830e1d018c532",
+        "uid" : "7878c4904df0a3ce",
         "parentUid" : "33c29c364439113b9781adb2ea3b0a5a",
         "status" : "passed",
         "time" : {
-          "start" : 1618559473309,
-          "stop" : 1618559489816,
-          "duration" : 16507
+          "start" : 1619077886663,
+          "stop" : 1619077899139,
+          "duration" : 12476
         },
         "flaky" : false,
         "newFailed" : false,
@@ -117,13 +117,13 @@
       "name" : "Specify a Transfer call number",
       "children" : [ {
         "name" : "Specify a Transfer call number",
-        "uid" : "e742e4619a5ac166",
+        "uid" : "6d06c46d0ab99c1b",
         "parentUid" : "dcea530cfca4a6db4ea715dfe5cedc8a",
         "status" : "passed",
         "time" : {
-          "start" : 1618559489826,
-          "stop" : 1618559559758,
-          "duration" : 69932
+          "start" : 1619077899146,
+          "stop" : 1619077974652,
+          "duration" : 75506
         },
         "flaky" : false,
         "newFailed" : false,

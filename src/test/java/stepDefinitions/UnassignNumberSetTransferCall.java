@@ -69,7 +69,7 @@ public class UnassignNumberSetTransferCall {
     public void the_user_specifies_a_transfer_call_numbers_and_updates() throws InterruptedException {
         numbersPage.enterTransferCallNumber();
         numbersPage.clickOnUpdateButton();
-        String expectedUpdateAlert = "The update was successfull";
+        String expectedUpdateAlert = "The update was successful";
         String actualUpdateAlert = numbersPage.getUpdateAlertText();
         Assert.assertEquals(expectedUpdateAlert, actualUpdateAlert);
     }
@@ -105,7 +105,7 @@ public class UnassignNumberSetTransferCall {
         numbersPage.clickTestNumber();
         numbersPage.clearTransferCallField();
         numbersPage.updateAfterClear();
-        String expectedUpdateAlert = "The update was successfull";
+        String expectedUpdateAlert = "The update was successful";
         String actualUpdateAlert = numbersPage.getUpdateAlertText();
         Assert.assertEquals(expectedUpdateAlert, actualUpdateAlert);
         webDriverManager.closeDriver();

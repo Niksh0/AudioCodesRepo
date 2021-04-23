@@ -1,70 +1,70 @@
 [ {
-  "uid" : "e3dc6d7b66751f62",
-  "name" : "Attempt to login with nonexistent user",
-  "time" : {
-    "start" : 1618559466504,
-    "stop" : 1618559473301,
-    "duration" : 6797
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbe830e1d018c532",
+  "uid" : "7878c4904df0a3ce",
   "name" : "Unassign a number from a bot and assign it back afterwards",
   "time" : {
-    "start" : 1618559473309,
-    "stop" : 1618559489816,
-    "duration" : 16507
+    "start" : 1619077886663,
+    "stop" : 1619077899139,
+    "duration" : 12476
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a483d72a0725da3a",
-  "name" : "Add a new Bot, assign a number to it and delete them",
-  "time" : {
-    "start" : 1618559421946,
-    "stop" : 1618559452658,
-    "duration" : 30712
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1d3c44c82a46f54c",
-  "name" : "Validate all bot frameworks are displayed",
-  "time" : {
-    "start" : 1618559410583,
-    "stop" : 1618559421802,
-    "duration" : 11219
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "907d7798daf8e104",
-  "name" : "Attempt to login with invalid credentials",
-  "time" : {
-    "start" : 1618559460497,
-    "stop" : 1618559466491,
-    "duration" : 5994
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e742e4619a5ac166",
-  "name" : "Specify a Transfer call number",
-  "time" : {
-    "start" : 1618559489826,
-    "stop" : 1618559559758,
-    "duration" : 69932
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a6fd9cacc0e3bfa4",
+  "uid" : "c23ab4c71be6f2f2",
   "name" : "Login with valid username and password",
   "time" : {
-    "start" : 1618559452667,
-    "stop" : 1618559460490,
-    "duration" : 7823
+    "start" : 1619077864168,
+    "stop" : 1619077873166,
+    "duration" : 8998
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6d06c46d0ab99c1b",
+  "name" : "Specify a Transfer call number",
+  "time" : {
+    "start" : 1619077899146,
+    "stop" : 1619077974652,
+    "duration" : 75506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb9a54608c0c9e17",
+  "name" : "Add a new Bot, assign a number to it and delete them",
+  "time" : {
+    "start" : 1619077829374,
+    "stop" : 1619077864155,
+    "duration" : 34781
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "836b39ef45f6ab4e",
+  "name" : "Validate all bot frameworks are displayed",
+  "time" : {
+    "start" : 1619077818538,
+    "stop" : 1619077829251,
+    "duration" : 10713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20778c8fdcbf05ca",
+  "name" : "Attempt to login with nonexistent user",
+  "time" : {
+    "start" : 1619077880054,
+    "stop" : 1619077886654,
+    "duration" : 6600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e1fa18c363b92be",
+  "name" : "Attempt to login with invalid credentials",
+  "time" : {
+    "start" : 1619077873210,
+    "stop" : 1619077880043,
+    "duration" : 6833
   },
   "status" : "passed",
   "severity" : "normal"

@@ -4,7 +4,9 @@ import enums.DriverType;
 import enums.EnvironmentType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,6 +18,7 @@ public class WebDriverManager {
     public WebDriverManager() {
         driverType = FileReaderManager.getInstance().getConfigFileReader().getBrowser();
         environmentType = FileReaderManager.getInstance().getConfigFileReader().getEnvironment();
+
     }
 
     public WebDriver getDriver() {

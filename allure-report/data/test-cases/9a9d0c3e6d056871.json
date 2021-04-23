@@ -1,0 +1,163 @@
+{
+  "uid" : "9a9d0c3e6d056871",
+  "name" : "Attempt to login with invalid credentials",
+  "fullName" : "Successful Login edited: Attempt to login with invalid credentials",
+  "historyId" : "94009b0c9edac2b92cc0c5d7accd65da",
+  "time" : {
+    "start" : 1618917934756,
+    "stop" : 1618917953095,
+    "duration" : 18339
+  },
+  "status" : "failed",
+  "statusMessage" : "expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>",
+  "statusTrace" : "org.junit.ComparisonFailure: expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginTest.user_receives_an_error_message(LoginTest.java:63)\r\n\tat ✽.User receives an error message(src/test/resources/LoginTest.feature:15)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1618917934757,
+      "stop" : 1618917934757,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>",
+    "statusTrace" : "org.junit.ComparisonFailure: expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginTest.user_receives_an_error_message(LoginTest.java:63)\r\n\tat ✽.User receives an error message(src/test/resources/LoginTest.feature:15)\r\n",
+    "steps" : [ {
+      "name" : "Given  User navigates to the login page",
+      "time" : {
+        "start" : 1618917934757,
+        "stop" : 1618917951506,
+        "duration" : 16749
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User enters invalid credentials",
+      "time" : {
+        "start" : 1618917951507,
+        "stop" : 1618917952355,
+        "duration" : 848
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User attempts to log in",
+      "time" : {
+        "start" : 1618917952355,
+        "stop" : 1618917952412,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User receives an error message",
+      "time" : {
+        "start" : 1618917952412,
+        "stop" : 1618917953094,
+        "duration" : 682
+      },
+      "status" : "failed",
+      "statusMessage" : "expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>",
+      "statusTrace" : "org.junit.ComparisonFailure: expected:<...correct Credentials.[ failed]> but was:<...correct Credentials.[]>\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginTest.user_receives_an_error_message(LoginTest.java:63)\r\n\tat ✽.User receives an error message(src/test/resources/LoginTest.feature:15)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1618917953094,
+      "stop" : 1618917953094,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "story",
+    "value" : "Attempt to login with invalid credentials"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "6808@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "suite",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "testClass",
+    "value" : "Attempt to login with invalid credentials"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a9d0c3e6d056871.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,242 @@
+{
+  "uid" : "c23ab4c71be6f2f2",
+  "name" : "Login with valid username and password",
+  "fullName" : "Successful Login edited: Login with valid username and password",
+  "historyId" : "96cb838b098bdedaae2cc049448bc47",
+  "time" : {
+    "start" : 1619077864168,
+    "stop" : 1619077873166,
+    "duration" : 8998
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1619077864168,
+      "stop" : 1619077864168,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to the login page",
+      "time" : {
+        "start" : 1619077864169,
+        "stop" : 1619077870689,
+        "duration" : 6520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User enters email and password",
+      "time" : {
+        "start" : 1619077870689,
+        "stop" : 1619077871681,
+        "duration" : 992
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks on the login button",
+      "time" : {
+        "start" : 1619077871681,
+        "stop" : 1619077871750,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  User is successfully logged in",
+      "time" : {
+        "start" : 1619077871750,
+        "stop" : 1619077873163,
+        "duration" : 1413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1619077873164,
+      "stop" : 1619077873165,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "story",
+    "value" : "Login with valid username and password"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "21572@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "suite",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "testClass",
+    "value" : "Login with valid username and password"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "f91cf13262b57009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618991454028,
+        "stop" : 1618991461685,
+        "duration" : 7657
+      }
+    }, {
+      "uid" : "ca44ed2d09771b97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618929709362,
+        "stop" : 1618929716814,
+        "duration" : 7452
+      }
+    }, {
+      "uid" : "9fafe01f6f845c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618917900534,
+        "stop" : 1618917934753,
+        "duration" : 34219
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "f0ba689ecdd37e6",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/26/allure/#testresult/f0ba689ecdd37e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618991454028,
+          "stop" : 1618991461685,
+          "duration" : 7657
+        }
+      }, {
+        "uid" : "bf6f451d68388648",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/25/allure/#testresult/bf6f451d68388648",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618929709362,
+          "stop" : 1618929716814,
+          "duration" : 7452
+        }
+      }, {
+        "uid" : "2bec62dc28a9d2a8",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/22/allure/#testresult/2bec62dc28a9d2a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822370544,
+          "stop" : 1618822377562,
+          "duration" : 7018
+        }
+      }, {
+        "uid" : "afa64972f8093cb2",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/21/allure/#testresult/afa64972f8093cb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822370544,
+          "stop" : 1618822377562,
+          "duration" : 7018
+        }
+      }, {
+        "uid" : "7265efe5a758ef5a",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/20/allure/#testresult/7265efe5a758ef5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822370544,
+          "stop" : 1618822377562,
+          "duration" : 7018
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c23ab4c71be6f2f2.json",
+  "parameterValues" : [ ]
+}

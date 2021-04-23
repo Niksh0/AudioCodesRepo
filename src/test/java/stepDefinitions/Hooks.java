@@ -25,7 +25,7 @@ public class Hooks {
     public void AfterSteps(Scenario scenario) throws InterruptedException, IOException, IllegalMonitorStateException {
         if (scenario.isFailed()) {
             System.out.println(scenario.getName());
-            Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+            //Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         }
     }
 

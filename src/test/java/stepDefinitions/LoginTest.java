@@ -58,7 +58,7 @@ public class LoginTest {
 
     @Then("^User receives an error message$")
     public void user_receives_an_error_message() {
-        String expectedAlertText = "Incorrect Credentials. failed";
+        String expectedAlertText = "Incorrect Credentials.";
         String actualAlertText = loginPage.getAlertText();
         Assert.assertEquals(expectedAlertText, actualAlertText);
         webDriverManager.closeDriver();

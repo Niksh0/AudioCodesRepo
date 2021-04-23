@@ -5,9 +5,11 @@ Feature: Add a new Bot
     Given The user is logged in
     Then The user click on the plus button
 
+  @severity=low
   Scenario: Validate all bot frameworks are displayed
     Then Validate that all Bot frameworks are displayed
 
+  @severity=blocker
   Scenario: Add a new Bot, assign a number to it and delete them
     When The user specifies the Bot framework
     And The user adds the Bot details

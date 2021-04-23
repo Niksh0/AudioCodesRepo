@@ -4,10 +4,10 @@
     "uid" : "4a16ce240d656d84a9a850ecc2ce1978",
     "name" : "Successful Login edited",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
       "total" : 3
     }
