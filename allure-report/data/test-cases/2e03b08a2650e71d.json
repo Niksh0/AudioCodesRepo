@@ -1,0 +1,157 @@
+{
+  "uid" : "2e03b08a2650e71d",
+  "name" : "Attempt to login with invalid credentials",
+  "fullName" : "Successful Login edited: Attempt to login with invalid credentials",
+  "historyId" : "94009b0c9edac2b92cc0c5d7accd65da",
+  "time" : {
+    "start" : 1619077873210,
+    "stop" : 1619077880043,
+    "duration" : 6833
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1619077873211,
+      "stop" : 1619077873211,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to the login page",
+      "time" : {
+        "start" : 1619077873211,
+        "stop" : 1619077877714,
+        "duration" : 4503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  User enters invalid credentials",
+      "time" : {
+        "start" : 1619077877714,
+        "stop" : 1619077878564,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  User attempts to log in",
+      "time" : {
+        "start" : 1619077878564,
+        "stop" : 1619077878632,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  User receives an error message",
+      "time" : {
+        "start" : 1619077878632,
+        "stop" : 1619077880041,
+        "duration" : 1409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1619077880042,
+      "stop" : 1619077880042,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "story",
+    "value" : "Attempt to login with invalid credentials"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "21572@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "suite",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "testClass",
+    "value" : "Attempt to login with invalid credentials"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e03b08a2650e71d.json",
+  "parameterValues" : [ ]
+}

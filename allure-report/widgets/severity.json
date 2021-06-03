@@ -1,71 +1,71 @@
 [ {
-  "uid" : "c23ab4c71be6f2f2",
+  "uid" : "e7e905ca33c8cb8b",
+  "name" : "Validate all bot frameworks are displayed",
+  "time" : {
+    "start" : 1620980632269,
+    "stop" : 1620980643169,
+    "duration" : 10900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e338a2cbcadc571f",
+  "name" : "Attempt to login with nonexistent user",
+  "time" : {
+    "start" : 1620980682359,
+    "stop" : 1620980688753,
+    "duration" : 6394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c24713010a78d574",
   "name" : "Login with valid username and password",
   "time" : {
-    "start" : 1619077864168,
-    "stop" : 1619077873166,
-    "duration" : 8998
+    "start" : 1620980669463,
+    "stop" : 1620980675892,
+    "duration" : 6429
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "836b39ef45f6ab4e",
-  "name" : "Validate all bot frameworks are displayed",
-  "time" : {
-    "start" : 1619077818538,
-    "stop" : 1619077829251,
-    "duration" : 10713
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb9a54608c0c9e17",
+  "uid" : "16b7d09e2f26aee8",
   "name" : "Add a new Bot, assign a number to it and delete them",
   "time" : {
-    "start" : 1619077829374,
-    "stop" : 1619077864155,
-    "duration" : 34781
+    "start" : 1620980643414,
+    "stop" : 1620980669435,
+    "duration" : 26021
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "6d06c46d0ab99c1b",
-  "name" : "Specify a Transfer call number",
-  "time" : {
-    "start" : 1619077899146,
-    "stop" : 1619077974652,
-    "duration" : 75506
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e1fa18c363b92be",
-  "name" : "Attempt to login with invalid credentials",
-  "time" : {
-    "start" : 1619077873210,
-    "stop" : 1619077880043,
-    "duration" : 6833
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7878c4904df0a3ce",
+  "uid" : "c591ab7a26d24015",
   "name" : "Unassign a number from a bot and assign it back afterwards",
   "time" : {
-    "start" : 1619077886663,
-    "stop" : 1619077899139,
-    "duration" : 12476
+    "start" : 1620980688761,
+    "stop" : 1620980699219,
+    "duration" : 10458
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "293ad99f0b5012e3",
+  "name" : "Attempt to login with invalid credentials",
+  "time" : {
+    "start" : 1620980675900,
+    "stop" : 1620980682349,
+    "duration" : 6449
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "20778c8fdcbf05ca",
-  "name" : "Attempt to login with nonexistent user",
+  "uid" : "15f72d76fb66d12c",
+  "name" : "Specify a Transfer call number",
   "time" : {
-    "start" : 1619077880054,
-    "stop" : 1619077886654,
-    "duration" : 6600
+    "start" : 1620980699232,
+    "stop" : 1620980706441,
+    "duration" : 7209
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

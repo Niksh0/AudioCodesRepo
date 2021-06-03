@@ -55,7 +55,7 @@ public class LoginPage extends BasePage {
     }
 
     public void enter_Credentials() {
-        enter_Username("frttest@mailpoof.com");
+        enter_Username("mock-telnyx-frt@mailpoof.com");
         enter_Password("Aa!123456");
     }
 

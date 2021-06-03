@@ -1,0 +1,172 @@
+{
+  "uid" : "ef5b258a5690b31a",
+  "name" : "Unassign a number from a bot and assign it back afterwards",
+  "fullName" : "Unassign a number and set Transfer call: Unassign a number from a bot and assign it back afterwards",
+  "historyId" : "c10bc88ddacd5a2d7cf6008d4ce078b3",
+  "time" : {
+    "start" : 1619077886663,
+    "stop" : 1619077899139,
+    "duration" : 12476
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1619077886663,
+      "stop" : 1619077886664,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user has logged in",
+      "time" : {
+        "start" : 1619077886665,
+        "stop" : 1619077892002,
+        "duration" : 5337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user navigates to the Numbers page and selects a number",
+      "time" : {
+        "start" : 1619077892003,
+        "stop" : 1619077893157,
+        "duration" : 1154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user unassigns the number",
+      "time" : {
+        "start" : 1619077893157,
+        "stop" : 1619077895443,
+        "duration" : 2286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user assigns it back to the Bot",
+      "time" : {
+        "start" : 1619077895443,
+        "stop" : 1619077896701,
+        "duration" : 1258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The user validates that the number is assigned to the Bot",
+      "time" : {
+        "start" : 1619077896702,
+        "stop" : 1619077899137,
+        "duration" : 2435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1619077899138,
+      "stop" : 1619077899138,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "story",
+    "value" : "Unassign a number from a bot and assign it back afterwards"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "21572@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "suite",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "testClass",
+    "value" : "Unassign a number from a bot and assign it back afterwards"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef5b258a5690b31a.json",
+  "parameterValues" : [ ]
+}

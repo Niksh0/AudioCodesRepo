@@ -1,0 +1,267 @@
+{
+  "uid" : "e7e905ca33c8cb8b",
+  "name" : "Validate all bot frameworks are displayed",
+  "fullName" : "Add a new Bot: Validate all bot frameworks are displayed",
+  "historyId" : "1ee3effc8d8b9d754359d73d26b409c8",
+  "time" : {
+    "start" : 1620980632269,
+    "stop" : 1620980643169,
+    "duration" : 10900
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1620980632276,
+      "stop" : 1620980632283,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user is logged in",
+      "time" : {
+        "start" : 1620980632286,
+        "stop" : 1620980639963,
+        "duration" : 7677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The user click on the plus button",
+      "time" : {
+        "start" : 1620980639965,
+        "stop" : 1620980640710,
+        "duration" : 745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  Validate that all Bot frameworks are displayed",
+      "time" : {
+        "start" : 1620980640710,
+        "stop" : 1620980643161,
+        "duration" : 2451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11fdcd257c4a19c5",
+        "name" : "Image",
+        "source" : "11fdcd257c4a19c5.png",
+        "type" : "image/png",
+        "size" : 128478
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1620980643165,
+      "stop" : 1620980643166,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "story",
+    "value" : "Validate all bot frameworks are displayed"
+  }, {
+    "name" : "severity",
+    "value" : "low"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "3160@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "suite",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate all bot frameworks are displayed"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "AUDCUAT-1084",
+    "url" : "https://jira.flatrocktech.com/browse/AUDCUAT-1084",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c6391314349e8b17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620979831964,
+        "stop" : 1620979842271,
+        "duration" : 10307
+      }
+    }, {
+      "uid" : "9d49fea153c0a86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620825397376,
+        "stop" : 1620825407569,
+        "duration" : 10193
+      }
+    }, {
+      "uid" : "c01504bc33b9db81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620823369823,
+        "stop" : 1620823379800,
+        "duration" : 9977
+      }
+    }, {
+      "uid" : "4b8a49d6b1f904e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620818459527,
+        "stop" : 1620818469350,
+        "duration" : 9823
+      }
+    }, {
+      "uid" : "58547fffd68b9c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620807104551,
+        "stop" : 1620807115462,
+        "duration" : 10911
+      }
+    }, {
+      "uid" : "fc848a2b6441d075",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619077818538,
+        "stop" : 1619077829251,
+        "duration" : 10713
+      }
+    }, {
+      "uid" : "d842394a4350ae3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618991415262,
+        "stop" : 1618991425248,
+        "duration" : 9986
+      }
+    }, {
+      "uid" : "e38e0566effde32d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618929664355,
+        "stop" : 1618929675666,
+        "duration" : 11311
+      }
+    }, {
+      "uid" : "8aee184ef1c2abec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618917833106,
+        "stop" : 1618917856101,
+        "duration" : 22995
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "836b39ef45f6ab4e",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/836b39ef45f6ab4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619077818538,
+          "stop" : 1619077829251,
+          "duration" : 10713
+        }
+      }, {
+        "uid" : "1d72003875aafd6b",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/26/allure/#testresult/1d72003875aafd6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618991415262,
+          "stop" : 1618991425248,
+          "duration" : 9986
+        }
+      }, {
+        "uid" : "37d29fca5d0e2632",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/25/allure/#testresult/37d29fca5d0e2632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618929664355,
+          "stop" : 1618929675666,
+          "duration" : 11311
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e7e905ca33c8cb8b.json",
+  "parameterValues" : [ ]
+}

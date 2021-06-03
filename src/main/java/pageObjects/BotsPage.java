@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import selenium.Wait;
 
@@ -78,7 +79,7 @@ public class BotsPage extends BasePage{
     @FindBy(xpath = "(//input[@name='cityPattern'])")
     private WebElement cityName;
 
-    @FindBy(xpath = "//button[. = 'Buy number']")
+    @FindBy(xpath = "//button[. = 'Add number']")
     private WebElement buyNumberButton;
 
     @FindBy(className = "numbers-wizard-number-created-wrapper")
@@ -125,6 +126,12 @@ public class BotsPage extends BasePage{
 
     @FindBy(xpath = "(//div[@role='progressbar'])")
     private WebElement progressBar;
+
+    @FindBy(xpath = "//input[@type='search']")
+    private WebElement searchField;
+
+    @FindBy(xpath = "//span/span[. = 'Billing']")
+    private WebElement billingPage;
 
 
     public String botsPage_Title() {
@@ -203,8 +210,13 @@ public class BotsPage extends BasePage{
         saveButton.click();
     }
 
+    public void search_Bot() {
+        waitForElementToAppear(searchField);
+        searchField.sendKeys("FRT");
+    }
+
     public void click_MicrosoftBotTile() {
-        waitForElementToAppear(microsoftBotTile);
+        waitForElementToBeClickable(microsoftBotTile);
         microsoftBotTile.click();
     }
 
@@ -248,7 +260,8 @@ public class BotsPage extends BasePage{
     }
 
     public void clickOnTransferCallToggle() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
+        //waitForElementToBeClickable(transferCallToggle);
         transferCallToggle.click();
     }
 
@@ -279,6 +292,10 @@ public class BotsPage extends BasePage{
     public void enter_msBotDetails() {
         enter_BotName("FRT Test");
         enter_SecretKey("pJOwNmK-fq0.u-2KkxMoXGxNb_F0qC9z6e4euw5A8jKs4Ar0VX77ljc");
+    }
+
+    public void navigateToBillingPage() {
+        billingPage.click();
     }
 
 }

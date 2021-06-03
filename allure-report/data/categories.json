@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb",
+      "children" : [ {
+        "name" : "Unassign a number from a bot and assign it back afterwards",
+        "uid" : "c591ab7a26d24015",
+        "parentUid" : "99c5ce92ae79213341a7a7ba2aa223cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620980688761,
+          "stop" : 1620980699219,
+          "duration" : 10458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99c5ce92ae79213341a7a7ba2aa223cd"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4e7df3f5533a52d8e0efab3d3077bf95",
+      "children" : [ {
+        "name" : "Specify a Transfer call number",
+        "uid" : "15f72d76fb66d12c",
+        "parentUid" : "12233a13a0d1721fca89a1c6c35ad666",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620980699232,
+          "stop" : 1620980706441,
+          "duration" : 7209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12233a13a0d1721fca89a1c6c35ad666"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

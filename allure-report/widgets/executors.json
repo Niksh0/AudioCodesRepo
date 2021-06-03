@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/",
-  "buildOrder" : 27,
-  "buildName" : "AudioCodes #27",
-  "buildUrl" : "http://localhost:8080/job/AudioCodesProject/27/",
+  "buildOrder" : 28,
+  "buildName" : "AudioCodes #28",
+  "buildUrl" : "http://localhost:8080/job/AudioCodesProject/28/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure"
+  "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure"
 } ]

@@ -1,0 +1,288 @@
+{
+  "uid" : "e338a2cbcadc571f",
+  "name" : "Attempt to login with nonexistent user",
+  "fullName" : "Successful Login edited: Attempt to login with nonexistent user",
+  "historyId" : "9a86afef6e7ab3ba801e8cb3f732e71",
+  "time" : {
+    "start" : 1620980682359,
+    "stop" : 1620980688753,
+    "duration" : 6394
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1620980682360,
+      "stop" : 1620980682360,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to the login page",
+      "time" : {
+        "start" : 1620980682361,
+        "stop" : 1620980686414,
+        "duration" : 4053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  User enters nonexistent email",
+      "time" : {
+        "start" : 1620980686414,
+        "stop" : 1620980687379,
+        "duration" : 965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  User tries to log in",
+      "time" : {
+        "start" : 1620980687379,
+        "stop" : 1620980687464,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  Error for nonexistent user is displayed",
+      "time" : {
+        "start" : 1620980687464,
+        "stop" : 1620980688752,
+        "duration" : 1288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1620980688753,
+      "stop" : 1620980688753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "story",
+    "value" : "Attempt to login with nonexistent user"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "3160@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "suite",
+    "value" : "Successful Login edited"
+  }, {
+    "name" : "testClass",
+    "value" : "Attempt to login with nonexistent user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a9bf3490522092f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620979883114,
+        "stop" : 1620979890149,
+        "duration" : 7035
+      }
+    }, {
+      "uid" : "3161dfeca9a7bab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620825445957,
+        "stop" : 1620825452431,
+        "duration" : 6474
+      }
+    }, {
+      "uid" : "617b1c9e1090c2ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620823424060,
+        "stop" : 1620823430812,
+        "duration" : 6752
+      }
+    }, {
+      "uid" : "9a15d47e65419069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620807180432,
+        "stop" : 1620807186526,
+        "duration" : 6094
+      }
+    }, {
+      "uid" : "ffbdc966b0798c7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619077880054,
+        "stop" : 1619077886654,
+        "duration" : 6600
+      }
+    }, {
+      "uid" : "6b8ef895d520ead3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618991468298,
+        "stop" : 1618991475169,
+        "duration" : 6871
+      }
+    }, {
+      "uid" : "c505b7ec47758e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618929724111,
+        "stop" : 1618929731174,
+        "duration" : 7063
+      }
+    }, {
+      "uid" : "519c250ad730b479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618917953109,
+        "stop" : 1618917967306,
+        "duration" : 14197
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "20778c8fdcbf05ca",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/20778c8fdcbf05ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619077880054,
+          "stop" : 1619077886654,
+          "duration" : 6600
+        }
+      }, {
+        "uid" : "c3e64a12313f1f35",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/26/allure/#testresult/c3e64a12313f1f35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618991468298,
+          "stop" : 1618991475169,
+          "duration" : 6871
+        }
+      }, {
+        "uid" : "83a2b8581ca6428e",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/25/allure/#testresult/83a2b8581ca6428e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618929724111,
+          "stop" : 1618929731174,
+          "duration" : 7063
+        }
+      }, {
+        "uid" : "a3f96c6f9a6f3415",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/22/allure/#testresult/a3f96c6f9a6f3415",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822384445,
+          "stop" : 1618822393247,
+          "duration" : 8802
+        }
+      }, {
+        "uid" : "2f8cbffcf66f686f",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/21/allure/#testresult/2f8cbffcf66f686f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822384445,
+          "stop" : 1618822393247,
+          "duration" : 8802
+        }
+      }, {
+        "uid" : "18548130fe0b1e3d",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/20/allure/#testresult/18548130fe0b1e3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822384445,
+          "stop" : 1618822393247,
+          "duration" : 8802
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e338a2cbcadc571f.json",
+  "parameterValues" : [ ]
+}

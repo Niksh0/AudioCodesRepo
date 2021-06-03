@@ -1,0 +1,424 @@
+{
+  "uid" : "c591ab7a26d24015",
+  "name" : "Unassign a number from a bot and assign it back afterwards",
+  "fullName" : "Unassign a number and set Transfer call: Unassign a number from a bot and assign it back afterwards",
+  "historyId" : "c10bc88ddacd5a2d7cf6008d4ce078b3",
+  "time" : {
+    "start" : 1620980688761,
+    "stop" : 1620980699219,
+    "duration" : 10458
+  },
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat pageObjects.NumbersPage.clickAssignButton(NumbersPage.java:85)\r\n\tat stepDefinitions.UnassignNumberSetTransferCall.the_user_assigns_it_back_to_the_Bot(UnassignNumberSetTransferCall.java:52)\r\n\tat ✽.The user assigns it back to the Bot(src/test/resources/UnassignNumberAndSetTransferCall.feature:9)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1620980688761,
+      "stop" : 1620980688762,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb",
+    "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat pageObjects.NumbersPage.clickAssignButton(NumbersPage.java:85)\r\n\tat stepDefinitions.UnassignNumberSetTransferCall.the_user_assigns_it_back_to_the_Bot(UnassignNumberSetTransferCall.java:52)\r\n\tat ✽.The user assigns it back to the Bot(src/test/resources/UnassignNumberAndSetTransferCall.feature:9)\r\n",
+    "steps" : [ {
+      "name" : "Given  The user has logged in",
+      "time" : {
+        "start" : 1620980688762,
+        "stop" : 1620980693847,
+        "duration" : 5085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user navigates to the Numbers page and selects a number",
+      "time" : {
+        "start" : 1620980693847,
+        "stop" : 1620980694919,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user unassigns the number",
+      "time" : {
+        "start" : 1620980694920,
+        "stop" : 1620980697754,
+        "duration" : 2834
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user assigns it back to the Bot",
+      "time" : {
+        "start" : 1620980697754,
+        "stop" : 1620980699214,
+        "duration" : 1460
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb",
+      "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat pageObjects.NumbersPage.clickAssignButton(NumbersPage.java:85)\r\n\tat stepDefinitions.UnassignNumberSetTransferCall.the_user_assigns_it_back_to_the_Bot(UnassignNumberSetTransferCall.java:52)\r\n\tat ✽.The user assigns it back to the Bot(src/test/resources/UnassignNumberAndSetTransferCall.feature:9)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then  The user validates that the number is assigned to the Bot",
+      "time" : {
+        "start" : 1620980699214,
+        "stop" : 1620980699215,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1620980699215,
+      "stop" : 1620980699218,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "story",
+    "value" : "Unassign a number from a bot and assign it back afterwards"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "3160@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "suite",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "testClass",
+    "value" : "Unassign a number from a bot and assign it back afterwards"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5499912a5061b928",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //button[. = 'Unassign number from bot']' (tried for 15 second(s) with 100 milliseconds interval)",
+      "time" : {
+        "start" : 1620979890151,
+        "stop" : 1620979977362,
+        "duration" : 87211
+      }
+    }, {
+      "uid" : "e67c2d36874650aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620825452446,
+        "stop" : 1620825465189,
+        "duration" : 12743
+      }
+    }, {
+      "uid" : "c68e5dc7d893d639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620823430825,
+        "stop" : 1620823447765,
+        "duration" : 16940
+      }
+    }, {
+      "uid" : "ea6be5988fa07885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620807186536,
+        "stop" : 1620807203531,
+        "duration" : 16995
+      }
+    }, {
+      "uid" : "ef5b258a5690b31a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619077886663,
+        "stop" : 1619077899139,
+        "duration" : 12476
+      }
+    }, {
+      "uid" : "15c41a4cfab7045c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618991475171,
+        "stop" : 1618991487868,
+        "duration" : 12697
+      }
+    }, {
+      "uid" : "a48ccb354ee3d61c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618929731187,
+        "stop" : 1618929748652,
+        "duration" : 17465
+      }
+    }, {
+      "uid" : "d96b06bcb50c37ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618917967317,
+        "stop" : 1618917999351,
+        "duration" : 32034
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "7878c4904df0a3ce",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/7878c4904df0a3ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619077886663,
+          "stop" : 1619077899139,
+          "duration" : 12476
+        }
+      }, {
+        "uid" : "390a75be517a09fd",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/26/allure/#testresult/390a75be517a09fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618991475171,
+          "stop" : 1618991487868,
+          "duration" : 12697
+        }
+      }, {
+        "uid" : "f55e18f190e06a8d",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/25/allure/#testresult/f55e18f190e06a8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618929731187,
+          "stop" : 1618929748652,
+          "duration" : 17465
+        }
+      }, {
+        "uid" : "61122fe34a0b5428",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/23/allure/#testresult/61122fe34a0b5428",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618827160771,
+          "stop" : 1618827174214,
+          "duration" : 13443
+        }
+      }, {
+        "uid" : "662b48f3beceb886",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/22/allure/#testresult/662b48f3beceb886",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618823601706,
+          "stop" : 1618823615278,
+          "duration" : 13572
+        }
+      }, {
+        "uid" : "ba496d60b3495b08",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/21/allure/#testresult/ba496d60b3495b08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618823168922,
+          "stop" : 1618823182311,
+          "duration" : 13389
+        }
+      }, {
+        "uid" : "bf81546948ba0018",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/20/allure/#testresult/bf81546948ba0018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618822393265,
+          "stop" : 1618822408526,
+          "duration" : 15261
+        }
+      }, {
+        "uid" : "2df0c1c0f4e39804",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/19/allure/#testresult/2df0c1c0f4e39804",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <div class=\"client-portal-list-numbername\" title=\"...\">FRT Test Number</div> is not clickable at point (986, 379). Other element would receive the click: <div class=\"flex-1 client-portal-list-item-container \">...</div>\n  (Session info: chrome=89.0.4389.128)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:65399}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 98825cdff5f61a7e82981327e04e7f6f",
+        "time" : {
+          "start" : 1618818678266,
+          "stop" : 1618818685802,
+          "duration" : 7536
+        }
+      }, {
+        "uid" : "361abf3cb0c38a6",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/18/allure/#testresult/361abf3cb0c38a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618579172099,
+          "stop" : 1618579187849,
+          "duration" : 15750
+        }
+      }, {
+        "uid" : "cbe830e1d018c532",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/17/allure/#testresult/cbe830e1d018c532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618559473309,
+          "stop" : 1618559489816,
+          "duration" : 16507
+        }
+      }, {
+        "uid" : "661d4723f0d0d399",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/16/allure/#testresult/661d4723f0d0d399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618494013145,
+          "stop" : 1618494029384,
+          "duration" : 16239
+        }
+      }, {
+        "uid" : "abcac88bcf65a8e",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/15/allure/#testresult/abcac88bcf65a8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618491866522,
+          "stop" : 1618491883909,
+          "duration" : 17387
+        }
+      }, {
+        "uid" : "c1ffee071e23df98",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/14/allure/#testresult/c1ffee071e23df98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618490989151,
+          "stop" : 1618491002945,
+          "duration" : 13794
+        }
+      }, {
+        "uid" : "ee8712a9c64965d0",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/13/allure/#testresult/ee8712a9c64965d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618489387851,
+          "stop" : 1618489402265,
+          "duration" : 14414
+        }
+      }, {
+        "uid" : "7f75bcfc76e54ec9",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/12/allure/#testresult/7f75bcfc76e54ec9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618485015150,
+          "stop" : 1618485030459,
+          "duration" : 15309
+        }
+      }, {
+        "uid" : "7348886ae03d18a5",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/11/allure/#testresult/7348886ae03d18a5",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //button[. = 'Unassign number from bot']' (tried for 15 second(s) with 100 milliseconds interval)",
+        "time" : {
+          "start" : 1618473084116,
+          "stop" : 1618473172041,
+          "duration" : 87925
+        }
+      }, {
+        "uid" : "6378e745e996196e",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/10/allure/#testresult/6378e745e996196e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618386673361,
+          "stop" : 1618386688696,
+          "duration" : 15335
+        }
+      }, {
+        "uid" : "9e18e323b521bf99",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/9/allure/#testresult/9e18e323b521bf99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618384747657,
+          "stop" : 1618384760946,
+          "duration" : 13289
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c591ab7a26d24015.json",
+  "parameterValues" : [ ]
+}

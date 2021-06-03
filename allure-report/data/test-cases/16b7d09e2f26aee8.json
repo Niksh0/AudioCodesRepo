@@ -1,0 +1,356 @@
+{
+  "uid" : "16b7d09e2f26aee8",
+  "name" : "Add a new Bot, assign a number to it and delete them",
+  "fullName" : "Add a new Bot: Add a new Bot, assign a number to it and delete them",
+  "historyId" : "a7ad55f5f7e0ec12562eaac6c15e9949",
+  "time" : {
+    "start" : 1620980643414,
+    "stop" : 1620980669435,
+    "duration" : 26021
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1620980643415,
+      "stop" : 1620980643416,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user is logged in",
+      "time" : {
+        "start" : 1620980643416,
+        "stop" : 1620980648581,
+        "duration" : 5165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The user click on the plus button",
+      "time" : {
+        "start" : 1620980648581,
+        "stop" : 1620980649258,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user specifies the Bot framework",
+      "time" : {
+        "start" : 1620980649258,
+        "stop" : 1620980650487,
+        "duration" : 1229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user adds the Bot details",
+      "time" : {
+        "start" : 1620980650487,
+        "stop" : 1620980651394,
+        "duration" : 907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user buys a number",
+      "time" : {
+        "start" : 1620980651394,
+        "stop" : 1620980664173,
+        "duration" : 12779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f897ac2a33f2a64a",
+        "name" : "Image",
+        "source" : "f897ac2a33f2a64a.png",
+        "type" : "image/png",
+        "size" : 150041
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The bot and number are added",
+      "time" : {
+        "start" : 1620980664173,
+        "stop" : 1620980666507,
+        "duration" : 2334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ad5c17a9af4aa06",
+        "name" : "Image",
+        "source" : "6ad5c17a9af4aa06.png",
+        "type" : "image/png",
+        "size" : 43977
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user deletes the bot and number",
+      "time" : {
+        "start" : 1620980666507,
+        "stop" : 1620980667243,
+        "duration" : 736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The bot and number are successfully deleted",
+      "time" : {
+        "start" : 1620980667243,
+        "stop" : 1620980669433,
+        "duration" : 2190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ee9be28626fdba3",
+        "name" : "Image",
+        "source" : "1ee9be28626fdba3.png",
+        "type" : "image/png",
+        "size" : 143840
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1620980669434,
+      "stop" : 1620980669435,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "story",
+    "value" : "Add a new Bot, assign a number to it and delete them"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "3160@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "suite",
+    "value" : "Add a new Bot"
+  }, {
+    "name" : "testClass",
+    "value" : "Add a new Bot, assign a number to it and delete them"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "AUDCUAT-1084",
+    "url" : "https://jira.flatrocktech.com/browse/AUDCUAT-1084",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "e31fc5b55d2f1e38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620979842598,
+        "stop" : 1620979869724,
+        "duration" : 27126
+      }
+    }, {
+      "uid" : "4c5eb2c3ecb9bc99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620825407984,
+        "stop" : 1620825432847,
+        "duration" : 24863
+      }
+    }, {
+      "uid" : "d24ef77ac26561f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620823380027,
+        "stop" : 1620823410632,
+        "duration" : 30605
+      }
+    }, {
+      "uid" : "7fe8501c8992e56a",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59362}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b1a6b24f1968993629048b2bc30a5135\n*** Element info: {Using=xpath, value=//input[@name='username']}",
+      "time" : {
+        "start" : 1620818469475,
+        "stop" : 1620818501229,
+        "duration" : 31754
+      }
+    }, {
+      "uid" : "1d8c24254cd7ae43",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 15 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1620807115579,
+        "stop" : 1620807167070,
+        "duration" : 51491
+      }
+    }, {
+      "uid" : "70a1c109ada3e1a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619077829374,
+        "stop" : 1619077864155,
+        "duration" : 34781
+      }
+    }, {
+      "uid" : "744ac6ccf0366eb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618991425383,
+        "stop" : 1618991454010,
+        "duration" : 28627
+      }
+    }, {
+      "uid" : "14082c1890321b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618929675834,
+        "stop" : 1618929709356,
+        "duration" : 33522
+      }
+    }, {
+      "uid" : "e413b9df2e6ecb91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618917856233,
+        "stop" : 1618917900503,
+        "duration" : 44270
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "fb9a54608c0c9e17",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/fb9a54608c0c9e17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619077829374,
+          "stop" : 1619077864155,
+          "duration" : 34781
+        }
+      }, {
+        "uid" : "46e8ff3a05fb8ccd",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/26/allure/#testresult/46e8ff3a05fb8ccd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618991425383,
+          "stop" : 1618991454010,
+          "duration" : 28627
+        }
+      }, {
+        "uid" : "a1cf6d3ce7d843",
+        "reportUrl" : "http://localhost:8080/job/AudioCodesProject/25/allure/#testresult/a1cf6d3ce7d843",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618929675834,
+          "stop" : 1618929709356,
+          "duration" : 33522
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "16b7d09e2f26aee8.json",
+  "parameterValues" : [ ]
+}

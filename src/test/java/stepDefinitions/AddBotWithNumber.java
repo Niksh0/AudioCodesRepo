@@ -46,6 +46,7 @@ public class AddBotWithNumber {
     @Then("^Validate that all Bot frameworks are displayed$")
     public void validate_that_all_Bot_frameworks_are_displayed() {
         Assert.assertTrue(botsPage.allBotsDisplayed());
+        Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         webDriverManager.closeDriver();
     }
 
@@ -74,6 +75,7 @@ public class AddBotWithNumber {
 
     @Then("^The bot and number are added$")
     public void the_bot_and_number_are_added() {
+        //botsPage.search_Bot();
         botsPage.click_MicrosoftBotTile();
         Allure.addAttachment("Image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }

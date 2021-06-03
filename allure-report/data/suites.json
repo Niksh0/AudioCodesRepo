@@ -5,26 +5,26 @@
     "name" : "Add a new Bot",
     "children" : [ {
       "name" : "Validate all bot frameworks are displayed",
-      "uid" : "836b39ef45f6ab4e",
+      "uid" : "e7e905ca33c8cb8b",
       "parentUid" : "fccd0569bf51faaece51cc5951b7e7c8",
       "status" : "passed",
       "time" : {
-        "start" : 1619077818538,
-        "stop" : 1619077829251,
-        "duration" : 10713
+        "start" : 1620980632269,
+        "stop" : 1620980643169,
+        "duration" : 10900
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Add a new Bot, assign a number to it and delete them",
-      "uid" : "fb9a54608c0c9e17",
+      "uid" : "16b7d09e2f26aee8",
       "parentUid" : "fccd0569bf51faaece51cc5951b7e7c8",
       "status" : "passed",
       "time" : {
-        "start" : 1619077829374,
-        "stop" : 1619077864155,
-        "duration" : 34781
+        "start" : 1620980643414,
+        "stop" : 1620980669435,
+        "duration" : 26021
       },
       "flaky" : false,
       "newFailed" : false,
@@ -35,39 +35,39 @@
     "name" : "Successful Login edited",
     "children" : [ {
       "name" : "Login with valid username and password",
-      "uid" : "c23ab4c71be6f2f2",
+      "uid" : "c24713010a78d574",
       "parentUid" : "5005a7b49c9f023bacd2325361ca9251",
       "status" : "passed",
       "time" : {
-        "start" : 1619077864168,
-        "stop" : 1619077873166,
-        "duration" : 8998
+        "start" : 1620980669463,
+        "stop" : 1620980675892,
+        "duration" : 6429
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Attempt to login with invalid credentials",
-      "uid" : "9e1fa18c363b92be",
+      "uid" : "293ad99f0b5012e3",
       "parentUid" : "5005a7b49c9f023bacd2325361ca9251",
       "status" : "passed",
       "time" : {
-        "start" : 1619077873210,
-        "stop" : 1619077880043,
-        "duration" : 6833
+        "start" : 1620980675900,
+        "stop" : 1620980682349,
+        "duration" : 6449
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Attempt to login with nonexistent user",
-      "uid" : "20778c8fdcbf05ca",
+      "uid" : "e338a2cbcadc571f",
       "parentUid" : "5005a7b49c9f023bacd2325361ca9251",
       "status" : "passed",
       "time" : {
-        "start" : 1619077880054,
-        "stop" : 1619077886654,
-        "duration" : 6600
+        "start" : 1620980682359,
+        "stop" : 1620980688753,
+        "duration" : 6394
       },
       "flaky" : false,
       "newFailed" : false,
@@ -78,26 +78,26 @@
     "name" : "Unassign a number and set Transfer call",
     "children" : [ {
       "name" : "Unassign a number from a bot and assign it back afterwards",
-      "uid" : "7878c4904df0a3ce",
+      "uid" : "c591ab7a26d24015",
       "parentUid" : "aaf6fa47573e480c2c205eae82c0a103",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1619077886663,
-        "stop" : 1619077899139,
-        "duration" : 12476
+        "start" : 1620980688761,
+        "stop" : 1620980699219,
+        "duration" : 10458
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Specify a Transfer call number",
-      "uid" : "6d06c46d0ab99c1b",
+      "uid" : "15f72d76fb66d12c",
       "parentUid" : "aaf6fa47573e480c2c205eae82c0a103",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1619077899146,
-        "stop" : 1619077974652,
-        "duration" : 75506
+        "start" : 1620980699232,
+        "stop" : 1620980706441,
+        "duration" : 7209
       },
       "flaky" : false,
       "newFailed" : false,

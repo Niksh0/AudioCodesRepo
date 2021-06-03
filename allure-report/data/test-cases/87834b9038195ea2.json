@@ -1,0 +1,202 @@
+{
+  "uid" : "87834b9038195ea2",
+  "name" : "Specify a Transfer call number",
+  "fullName" : "Unassign a number and set Transfer call: Specify a Transfer call number",
+  "historyId" : "a971673edc2559d3c40ce1621e0c114a",
+  "time" : {
+    "start" : 1620807203540,
+    "stop" : 1620807278008,
+    "duration" : 74468
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.BeforeSteps()",
+    "time" : {
+      "start" : 1620807203541,
+      "stop" : 1620807203542,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user has logged in",
+      "time" : {
+        "start" : 1620807203542,
+        "stop" : 1620807208674,
+        "duration" : 5132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user navigates to the Numbers page and selects a number",
+      "time" : {
+        "start" : 1620807208674,
+        "stop" : 1620807210082,
+        "duration" : 1408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user specifies a transfer call numbers and updates",
+      "time" : {
+        "start" : 1620807210082,
+        "stop" : 1620807215078,
+        "duration" : 4996
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  The user turns off the Transfer call feature",
+      "time" : {
+        "start" : 1620807215078,
+        "stop" : 1620807220836,
+        "duration" : 5758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The transfer call field is hidden",
+      "time" : {
+        "start" : 1620807220836,
+        "stop" : 1620807261858,
+        "duration" : 41022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  The user turns on the Transfer call feature",
+      "time" : {
+        "start" : 1620807261858,
+        "stop" : 1620807267621,
+        "duration" : 5763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  The user clears the field and the number is updated",
+      "time" : {
+        "start" : 1620807267621,
+        "stop" : 1620807278008,
+        "duration" : 10387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hooks.AfterSteps(Scenario)",
+    "time" : {
+      "start" : 1620807278008,
+      "stop" : 1620807278008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "story",
+    "value" : "Specify a Transfer call number"
+  }, {
+    "name" : "host",
+    "value" : "NikolayG-PC45"
+  }, {
+    "name" : "thread",
+    "value" : "17832@NikolayG-PC45.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "suite",
+    "value" : "Unassign a number and set Transfer call"
+  }, {
+    "name" : "testClass",
+    "value" : "Specify a Transfer call number"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87834b9038195ea2.json",
+  "parameterValues" : [ ]
+}

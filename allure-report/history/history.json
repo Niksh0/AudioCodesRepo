@@ -150,11 +150,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "293ad99f0b5012e3",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/293ad99f0b5012e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620980675900,
+        "stop" : 1620980682349,
+        "duration" : 6449
+      }
+    }, {
       "uid" : "9e1fa18c363b92be",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/9e1fa18c363b92be",
       "status" : "passed",
@@ -218,11 +227,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "16b7d09e2f26aee8",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/16b7d09e2f26aee8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620980643414,
+        "stop" : 1620980669435,
+        "duration" : 26021
+      }
+    }, {
       "uid" : "fb9a54608c0c9e17",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/fb9a54608c0c9e17",
       "status" : "passed",
@@ -256,11 +274,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "c24713010a78d574",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/c24713010a78d574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620980669463,
+        "stop" : 1620980675892,
+        "duration" : 6429
+      }
+    }, {
       "uid" : "c23ab4c71be6f2f2",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/c23ab4c71be6f2f2",
       "status" : "passed",
@@ -321,11 +348,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "e7e905ca33c8cb8b",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/e7e905ca33c8cb8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620980632269,
+        "stop" : 1620980643169,
+        "duration" : 10900
+      }
+    }, {
       "uid" : "836b39ef45f6ab4e",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/836b39ef45f6ab4e",
       "status" : "passed",
@@ -357,13 +393,23 @@
   "c10bc88ddacd5a2d7cf6008d4ce078b3" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "c591ab7a26d24015",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/c591ab7a26d24015",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button data-test=\"button\" type=\"button\" class=\"btn-primary btn Ripple-parent mr-2 round\">...</button> is not clickable at point (1205, 688). Other element would receive the click: <div class=\"text-center py-1\">...</div>\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e466f6df2d2141b387a4b0f14919a1eb",
+      "time" : {
+        "start" : 1620980688761,
+        "stop" : 1620980699219,
+        "duration" : 10458
+      }
+    }, {
       "uid" : "7878c4904df0a3ce",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/7878c4904df0a3ce",
       "status" : "passed",
@@ -837,13 +883,23 @@
   "a971673edc2559d3c40ce1621e0c114a" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 15,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "15f72d76fb66d12c",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/15f72d76fb66d12c",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=90.0.4430.93)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NIKOLAYG-PC45', ip: '192.168.1.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\NIKOLA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4e7df3f5533a52d8e0efab3d3077bf95",
+      "time" : {
+        "start" : 1620980699232,
+        "stop" : 1620980706441,
+        "duration" : 7209
+      }
+    }, {
       "uid" : "6d06c46d0ab99c1b",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/6d06c46d0ab99c1b",
       "status" : "passed",
@@ -1161,11 +1217,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "e338a2cbcadc571f",
+      "reportUrl" : "http://localhost:8080/job/AudioCodesProject/28/allure/#testresult/e338a2cbcadc571f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620980682359,
+        "stop" : 1620980688753,
+        "duration" : 6394
+      }
+    }, {
       "uid" : "20778c8fdcbf05ca",
       "reportUrl" : "http://localhost:8080/job/AudioCodesProject/27/allure/#testresult/20778c8fdcbf05ca",
       "status" : "passed",

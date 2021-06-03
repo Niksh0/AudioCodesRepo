@@ -1,6 +1,17 @@
 {
   "total" : 3,
   "items" : [ {
+    "uid" : "1b65223402f62ee2f252c13085800289",
+    "name" : "Unassign a number and set Transfer call",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "4a16ce240d656d84a9a850ecc2ce1978",
     "name" : "Successful Login edited",
     "statistic" : {
@@ -14,17 +25,6 @@
   }, {
     "uid" : "05816607b385cc66c5fa8889353fb4b6",
     "name" : "Add a new Bot",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "1b65223402f62ee2f252c13085800289",
-    "name" : "Unassign a number and set Transfer call",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
