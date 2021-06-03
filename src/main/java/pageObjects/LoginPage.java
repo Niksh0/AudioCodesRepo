@@ -26,21 +26,21 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//div[@role='alert']")
     private WebElement redAlert;
 
-    public void navigateTo_LoginPage () {
+    public void navigateToLoginPage () {
         driver.get(FileReaderManager.getInstance().getConfigFileReader().getApplicationUrl());
     }
 
-    public void enter_Username(String userEmail) {
+    public void enterUsername(String userEmail) {
         username.clear();
         username.sendKeys(userEmail);
     }
 
-    public void  enter_Password(String userPassword) {
+    public void  enterPassword(String userPassword) {
         password.clear();
         password.sendKeys(userPassword);
     }
 
-    public void click_Login()  {
+    public void clickLogin()  {
         loginButton.click();
     }
 
@@ -54,19 +54,24 @@ public class LoginPage extends BasePage {
         return redAlert.getText();
     }
 
-    public void enter_Credentials() {
-        enter_Username("mock-telnyx-frt@mailpoof.com");
-        enter_Password("Aa!123456");
+    public void enterCredentials() {
+        enterUsername("mock-telnyx-frt@mailpoof.com");
+        enterPassword("Aa!123456");
     }
 
-    public void enter_InvalidCredentials() {
-        enter_Username("frttest@mailpoof.com");
-        enter_Password("Aa!1234561");
+    public void enterInvalidCredentials() {
+        enterUsername("frttest@mailpoof.com");
+        enterPassword("Aa!1234561");
     }
 
-    public void enter_NonexistentUserCredentials() {
-        enter_Username("frttest1111@mailpoof.com");
-        enter_Password("Aa!123456");
+    public void enterNonexistentUserCredentials() {
+        enterUsername("frttest1111@mailpoof.com");
+        enterPassword("Aa!123456");
+    }
+
+    public void enterAdminCredentials() {
+        enterUsername("admin@pnc.com");
+        enterPassword("q`[RRMSM00%Th5t");
     }
 
 }

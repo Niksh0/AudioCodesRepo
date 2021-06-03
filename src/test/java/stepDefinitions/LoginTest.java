@@ -24,17 +24,17 @@ public class LoginTest {
         driver = webDriverManager.getDriver();
         pageObjectManager = new PageObjectManager(driver);
         loginPage = pageObjectManager.getLoginPage();
-        loginPage.navigateTo_LoginPage();
+        loginPage.navigateToLoginPage();
     }
 
     @When("User enters email and password")
     public void user_enters_email_and_password() {
-        loginPage.enter_Credentials();
+        loginPage.enterCredentials();
     }
 
     @And("User clicks on the login button")
     public void user_clicks_on_the_login_button() {
-        loginPage.click_Login();
+        loginPage.clickLogin();
     }
 
     @Then("User is successfully logged in")
@@ -48,12 +48,12 @@ public class LoginTest {
 
     @When("^User enters invalid credentials$")
     public void user_enters_invalid_credentials() {
-        loginPage.enter_InvalidCredentials();
+        loginPage.enterInvalidCredentials();
     }
 
     @When("^User attempts to log in$")
     public void user_attempts_to_log_in() {
-        loginPage.click_Login();
+        loginPage.clickLogin();
     }
 
     @Then("^User receives an error message$")
@@ -66,12 +66,12 @@ public class LoginTest {
 
     @When("^User enters nonexistent email$")
     public void user_enters_nonexistent_email() {
-        loginPage.enter_NonexistentUserCredentials();
+        loginPage.enterNonexistentUserCredentials();
     }
 
     @When("^User tries to log in$")
     public void user_tries_to_log_in() {
-        loginPage.click_Login();
+        loginPage.clickLogin();
     }
 
     @Then("^Error for nonexistent user is displayed$")

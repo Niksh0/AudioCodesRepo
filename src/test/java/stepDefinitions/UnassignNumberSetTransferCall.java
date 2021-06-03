@@ -25,9 +25,9 @@ public class UnassignNumberSetTransferCall {
         driver = webDriverManager.getDriver();
         pageObjectManager = new PageObjectManager(driver);
         loginPage = pageObjectManager.getLoginPage();
-        loginPage.navigateTo_LoginPage();
-        loginPage.enter_Credentials();
-        loginPage.click_Login();
+        loginPage.navigateToLoginPage();
+        loginPage.enterCredentials();
+        loginPage.clickLogin();
     }
 
     @When("^The user navigates to the Numbers page and selects a number$")
